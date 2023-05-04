@@ -1,0 +1,479 @@
+---
+layout: default
+---
+<!-- Page Content -->
+<div class="page-content">
+  <!-- Content -->
+  <div class="content clearfix">
+    <div id="breadcrumbs" class="container mb-5">
+      <div class="col-lg-8 col-md-10 ml-auto mr-auto">
+        <p><a href="{{ site.baseurl }}{% link index.markdown %}#collections" class="parent">Data Collections</a> &#187;
+          {{page.title}}</p>
+      </div>
+    </div>
+    <!-- Collection -->
+    {% assign dataset_csv = page.permalink %}
+    <div id="collection" class="container mb-5">
+      <div class="section-title col-lg-8 col-md-10 ml-auto mr-auto text-justify">
+        <h3 class="mb-4">{{ page.title }}</h3>
+        {{ content }}
+      </div>
+      <div class="col-lg-8 col-md-10 ml-auto mr-auto">
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-6">
+                <dl class="row">
+                  {% if page.contact %}
+                  <dt class="col-sm-4">Contact</dt>
+                  <dd class="col-sm-8"><a href="mailto:{{ page.contact_email | encode_email }}">{{ page.contact }}</a>
+                  </dd>
+                  {% endif %}
+                  {% if page.doi %}
+                  <dt class="col-sm-4">DOI</dt>
+                  <dd class="col-sm-8"><a href="{{ page.doi_link }}">{{ page.doi }}</a></dd>
+                  {% endif %}
+                  {% if page.date %}
+                  <dt class="col-sm-4">Release</dt>
+                  <dd class="col-sm-8">{{ page.date | date: "%-d %B %Y"}}</dd>
+                  {% endif %}
+                  {% if page.lab %}
+                  <dt class="col-sm-4">Lab</dt>
+                  <dd class="col-sm-8"><a href="{{ page.lab_website }}">{{ page.lab }}</a></dd>
+                  {% endif %}
+                </dl>
+              </div>
+              <div class="col-md-6">
+                <dl class="row">
+                  <dt class="col-sm-4">Tissue</dt>
+                  <dd class="col-sm-8">
+                    {% assign tissues = "" | split: ',' %}
+                    {% for dataset in site.data[dataset_csv] %}
+                    {% assign list = dataset.tissue | split: "," %}
+                    {% for item in list %}
+                    {% assign tissue = item | strip %}
+                    {% assign tissues = tissues | push: tissue %}
+                    {% endfor %}
+                    {% endfor %}
+                    {% assign all_tissues = tissues | compact | uniq | sort %}
+                    {{ all_tissues | join: ", " }}
+                  </dd>
+                  <dt class="col-sm-4 text-truncate">Assay</dt>
+                  <dd class="col-sm-8">
+                    {% assign assays = "" | split: ',' %}
+                    {% for dataset in site.data[dataset_csv] %}
+                    {% assign list = dataset.assay | split: "," %}
+                    {% for item in list %}
+                    {% assign assay = item | strip %}
+                    {% assign assays = assays | push: assay %}
+                    {% endfor %}
+                    {% endfor %}
+                    {% assign all_assays = assays | compact | uniq | sort %}
+                    {{ all_assays | join: ", " }}
+                  </dd>
+                  <dt class="col-sm-4">Disease</dt>
+                  <dd class="col-sm-8">
+                    {% assign diseases = "" | split: ',' %}
+                    {% for dataset in site.data[dataset_csv] %}
+                    {% assign list = dataset.disease | split: "," %}
+                    {% for item in list %}
+                    {% assign disease = item | strip %}
+                    {% assign diseases = diseases | push: disease %}
+                    {% endfor %}
+                    {% endfor %}
+                    {% assign all_diseases = diseases | compact | uniq | sort %}
+                    {{ all_diseases | join: ", " }}
+                  </dd>
+                  <dt class="col-sm-4">Organism</dt>
+                  <dd class="col-sm-8">
+                    {% assign organisms = "" | split: ',' %}
+                    {% for dataset in site.data[dataset_csv] %}
+                    {% assign list = dataset.organism | split: "," %}
+                    {% for item in list %}
+                    {% assign organism = item | strip %}
+                    {% assign organisms = organisms | push: organism %}
+                    {% endfor %}
+                    {% endfor %}
+                    {% assign all_organisms = organisms | compact | uniq | sort %}
+                    {{ all_organisms | join: ", " }}
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="datasets" class="mb-5">
+      {% assign items_grouped = site.data[dataset_csv] | group_by: 'category' %}
+      {% for group in items_grouped %}
+      {% if group.name == "Video" %}
+      <div class="container">
+        <div class="section-title col-lg-8 col-md-10 ml-auto mr-auto">
+          <h3 class="mb-4">Videos</h3>
+        </div>
+      </div>
+      <div class="overlay vid-link" vidUrl="#"></div>
+      <div class="main-vid-box">
+        <div class="videoWrapper">
+          <video autoplay="autoplay" class="myVideo" src="" frameborder="0" controls></video>
+        </div>
+      </div>
+      <img class="close vid-link" vidUrl="#" src="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/close.svg">
+      <div class="col-md-10 ml-auto mr-auto ">
+        <div class="py-4">
+          <div class="row">
+            {% for dataset in group.items %}
+            <div class="col-md-12 col-lg-4 d-flex">
+              <div class="video-link card mb-4 flex-fill" vidUrl="{{ dataset.mp4 }}">
+                <img class="card-img-top" src="{{ dataset.thumb }}" alt="{{ dataset.title }}">
+                <div class="card-body">
+                  <h4 class="card-title">{{ dataset.name }}</h4>
+                  <p class="card-text">{{ dataset.desc }}</p>
+                  <div class="btn btn-primary btn-pill">Watch</div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% elsif group.name == "Downloads" %}
+      <div class="container">
+        <div class="section-title col-lg-8 col-md-10 ml-auto mr-auto">
+          <h3 class="mb-4">Supplementary Downloads</h3>
+        </div>
+      </div>
+      <div class="col-md-10 ml-auto mr-auto">
+        <div class="table">
+          <div class="row header">
+            <div class="cell">
+              Name
+            </div>
+            <div class="cell nowrap">
+              Size
+            </div>
+          </div>
+          {% for dataset in group.items %}
+          <div class="row">
+            <div class="cell" data-title="Name">
+              <p><strong>{{ dataset.name }}</strong></p>
+              {{ dataset.desc }}
+              <div class="actions mt-2">
+                {% if dataset.download %}
+                <a href="{{ dataset.download }}" class="btn btn-dark btn-squared btn-sm" target="_blank"><i
+                    class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
+                {% endif %}
+              </div>
+            </div>
+            <div class="cell nowrap" data-title="Size">
+              {{ dataset.size }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% else %}
+      <div class="container">
+        <div class="section-title col-lg-8 col-md-10 ml-auto mr-auto">
+          <h3 class="mb-4">{{group.name}} Datasets</h3>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="col-md-10 ml-auto mr-auto">
+          <div class="table">
+            <div class="row header">
+              <div class="cell">
+                Dataset
+              </div>
+              <div class="cell">
+                Tissue
+              </div>
+              <div class="cell">
+                Assay
+              </div>
+              <div class="cell">
+                Disease
+              </div>
+              <div class="cell">
+                Organism
+              </div>
+              <div class="cell">
+                Count
+              </div>
+            </div>
+            {% for dataset in group.items %}
+            <div class="row">
+              <div class="cell" data-title="Dataset">
+                <a href="#DatasetModal{{ group.name }}{{ forloop.index }}" data-toggle="modal"
+                  data-target="#DatasetModal{{ group.name }}{{ forloop.index }}">{{ dataset.name }}</a>
+                <div class="actions mt-2">
+                  <button type="button" class="btn btn-dark btn-squared btn-sm" data-toggle="modal"
+                    data-target="#DatasetModal{{ group.name }}{{ forloop.index }}">
+                    <i class="fas fa-bars"></i>
+                  </button>
+                  {% if dataset.insight_link %}
+                  <a href="{{ dataset.insight_link }}" class="btn btn-dark btn-squared btn-sm" target="_blank"><i
+                      class="fas fa-book-open"></i>&nbsp;&nbsp;Open</a>
+                  {% endif %}
+                  {% if dataset.cellxgene_link %}
+                  <a href="{{ dataset.cellxgene_link }}" class="btn btn-dark btn-squared btn-sm" target="_blank"><i
+                      class="fas fa-book-open"></i>&nbsp;&nbsp;cellxgene</a>
+                  {% endif %}
+                  {% if dataset.insight_link == nil and dataset.cellxgene_link == nil and dataset.h5ad_object_link %}
+                  <a href="{{ dataset.h5ad_object_link }}" class="btn btn-dark btn-squared btn-sm" target="_blank"><i
+                      class="fas fa-download"></i>&nbsp;&nbsp;.h5ad</a>
+                  {% endif %}
+                  {% if dataset.insight_link == nil and dataset.cellxgene_link == nil and dataset.h5ad_object_link ==
+                  nil and dataset.source_link %}
+                  <a href="{{ dataset.source_link }}" class="btn btn-dark btn-squared btn-sm" target="_blank"><i
+                      class="fas fa-download"></i>&nbsp;&nbsp;Source</a>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="cell nowrap" data-title="Tissue">
+                {% assign tissues = "" | split: ',' %}
+                {% assign list = dataset.tissue | split: "," %}
+                {% for tissue in list %}
+                {% assign tissues = tissues | push: tissue %}
+                {% endfor %}
+                {% assign all_tissues = tissues | compact | uniq | sort %}
+                {% for tissue in all_tissues %}
+                {{ tissue }}<br />
+                {% endfor %}
+              </div>
+              <div class="cell nowrap" data-title="Assay">
+                {% assign assays = "" | split: ',' %}
+                {% assign list = dataset.assay | split: "," %}
+                {% for assay in list %}
+                {% assign assays = assays | push: assay %}
+                {% endfor %}
+                {% assign all_assays = assays | compact | uniq | sort %}
+                {% for assay in all_assays %}
+                {{ assay }}<br />
+                {% endfor %}
+              </div>
+              <div class="cell" data-title="Disease">
+                {{ dataset.disease }}
+              </div>
+              <div class="cell" data-title="Organism">
+                {{ dataset.organism }}
+              </div>
+              <div class="cell" data-title="Count">
+                {{ dataset.count }}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <!-- Dataset modal content -->
+      {% for dataset in group.items %}
+      <div class="modal fade" id="DatasetModal{{group.name}}{{ forloop.index }}" tabindex="-1" role="dialog"
+        aria-labelledby="DatasetModal{{group.name}}{{ forloop.index }}Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">{{ dataset.name }}</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              {{ dataset.desc | replace: "\n", "<br>" }}
+              {% assign tags = dataset.tags | split: ',' %}
+              {% if tags %}
+              <div class="tags">
+                {% for tag in tags %}
+                <span class="badge badge-info">{{ tag }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+              <h5 class="text-muted mb-4">About the dataset</h5>
+              <dl class="row">
+                <dt class="col-sm-4">Tissue</dt>
+                <dd class="col-sm-8">
+                  {{ dataset.tissue }}
+                </dd>
+                <dt class="col-sm-4 text-truncate">Assay</dt>
+                <dd class="col-sm-8">
+                  {{ dataset.assay }}
+                </dd>
+                <dt class="col-sm-4">Disease</dt>
+                <dd class="col-sm-8">
+                  {{ dataset.disease }}
+                </dd>
+                <dt class="col-sm-4">Organism</dt>
+                <dd class="col-sm-8">
+                  {{ dataset.organism }}
+                </dd>
+                <dt class="col-sm-4">Count</dt>
+                <dd class="col-sm-8">
+                  {{ dataset.count }}
+                </dd>
+              </dl>
+              {% if dataset.insight_link or
+              dataset.cellxgene_link or
+              dataset.vitescce_link %}
+              <h5 class="text-muted mb-4">Apps for data exploration</h5>
+              <dl class="row">
+                {% if dataset.insight_link %}
+                <dt class="col-sm-4">Adifa</dt>
+                <dd class="col-sm-8">
+                  <a href="{{ dataset.insight_link }}" class="btn btn-dark btn-squared btn-sm" target="_blank"><i
+                      class="fas fa-book-open"></i>&nbsp;&nbsp;Adifa</a>
+                </dd>
+                {% endif %}
+                {% if dataset.cellxgene_link %}
+                <dt class="col-sm-4">Cellxgene</dt>
+                <dd class="col-sm-8">
+                  <a href="{{ dataset.cellxgene_link }}" class="btn btn-dark btn-squared btn-sm" target="_blank"><i
+                      class="fas fa-book-open"></i>&nbsp;&nbsp;cellxgene</a>
+                </dd>
+                {% endif %}
+                {% if dataset.vitescce_link %}
+                <dt class="col-sm-4">Vitescce</dt>
+                <dd class="col-sm-8">
+                  <a href="{{ dataset.vitescce_link }}" class="btn btn-dark btn-squared btn-sm" target="_blank"><i
+                      class="fas fa-book-open"></i>&nbsp;&nbsp;Vitescce</a>
+                </dd>
+                {% endif %}
+              </dl>
+              {% endif %}
+              <h5 class="text-muted mb-4">Downloads and resources</h5>
+              <table class="table table-sm table-hover">
+                <tbody>
+                  {% if dataset.h5ad_object_link %}
+                  <tr>
+                    <td>H5AD file <i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title=""
+                        data-original-title="AnnData is a commonly used Python package for keeping track of data and learned annotations, and can 
+                            be used to read from and write to the h5ad file format"></i></td>
+                    <td>
+                      <a href="{{ dataset.h5ad_object_link }}" class="btn btn-dark btn-squared btn-sm float-right"
+                        target="_blank"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
+                    </td>
+                  </tr>
+                  {% endif %}
+                  {% if dataset.scvi_model_link %}
+                  <tr>
+                    <td>scVI model <i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title=""
+                        data-original-title="scvi-tools (single-cell variational inference tools) is a package for probabilistic modeling and analysis
+                            of single-cell omics data, built on top of PyTorch and AnnData"></i></td>
+                    <td>
+                      <a href="{{ dataset.scvi_model_link }}" class="btn btn-dark btn-squared btn-sm float-right"
+                        target="_blank"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
+                    </td>
+                  </tr>
+                  {% endif %}
+                  {% if dataset.celltypist_model_link %}
+                  <tr>
+                    <td>Celltypist model <i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top"
+                        title="" data-original-title="Celltypist is an open source tool for automated cell type annotations as well as a work group in charge of
+                            curating models and ontologies"></i></td>
+                    <td>
+                      <a href="{{ dataset.celltypist_model_link }}" class="btn btn-dark btn-squared btn-sm float-right"
+                        target="_blank"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
+                    </td>
+                  </tr>
+                  {% endif %}
+                  {% if dataset.csv_cell_annotations_link %}
+                  <tr>
+                    <td>CSV cell annotations <i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top"
+                        title="" data-original-title="CSV cell annotations"></i></td>
+                    <td>
+                      <a href="{{ dataset.csv_cell_annotations_link }}"
+                        class="btn btn-dark btn-squared btn-sm float-right" target="_blank"><i
+                          class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
+                    </td>
+                  </tr>
+                  {% endif %}
+                  {% if dataset.hires_image_link %}
+                  <tr>
+                    <td>Hi-res image <i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top" title=""
+                        data-original-title="Hi-res image"></i></td>
+                    <td>
+                      <a href="{{ dataset.hires_image_link }}" class="btn btn-dark btn-squared btn-sm float-right"
+                        target="_blank"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
+                    </td>
+                  </tr>
+                  {% endif %}
+                  {% if dataset.contig_link %}
+                  <tr>
+                    <td>Contig information <i class="fas fa-info-circle" data-toggle="tooltip" data-placement="top"
+                        title="" data-original-title="Contig information"></i></td>
+                    <td>
+                      <a href="{{ dataset.contig_link }}" class="btn btn-dark btn-squared btn-sm float-right"
+                        target="_blank"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
+                    </td>
+                  </tr>
+                  {% endif %}
+                  {% if dataset.sample_level_metadata_scrnaseq_link %}
+                  <tr>
+                    <td>Sample-level metadata in csv format (scRNA-seq) <i class="fas fa-info-circle"
+                        data-toggle="tooltip" data-placement="top" title=""
+                        data-original-title="Sample-level metadata"></i></td>
+                    <td>
+                      <a href="{{ dataset.sample_level_metadata_scrnaseq_link }}"
+                        class="btn btn-dark btn-squared btn-sm float-right" target="_blank"><i
+                          class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
+                    </td>
+                  </tr>
+                  {% endif %}
+                  {% if dataset.sample_level_metadata_visium %}
+                  <tr>
+                    <td>Sample-level metadata in csv format (Visium) <i class="fas fa-info-circle" data-toggle="tooltip"
+                        data-placement="top" title="" data-original-title="Sample-level metadata"></i></td>
+                    <td>
+                      <a href="{{ dataset.sample_level_metadata_visium }}"
+                        class="btn btn-dark btn-squared btn-sm float-right" target="_blank"><i
+                          class="fas fa-download"></i>&nbsp;&nbsp;Download</a>
+                    </td>
+                  </tr>
+                  {% endif %}
+
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div id="reproducibility" class="container mb-5">
+      <div class="section-title col-lg-8 col-md-10 ml-auto mr-auto">
+        <h3 class="mb-4">Reproducibility</h3>
+        <p>Reproducibility is a major principle underpinning the scientific method. We make publicly available the raw
+          data
+          and analysis scripts associated with each collection.</p>
+      </div>
+      <div class="col-lg-8 col-md-10 ml-auto mr-auto">
+        <div class="row mb-5">
+          <div class="col-md-12">
+            <dl class="row">
+              {% if page.raw_data_link %}
+              <dt class="col-sm-4">Raw Data</dt>
+              <dd class="col-sm-8 text-truncate"><a href="{{ page.raw_data_link }}" target="_blank">{{
+                  page.raw_data_link }}</a></dd>
+              {% endif %}
+              {% if page.code_repository_link %}
+              <dt class="col-sm-4">Code Repository</dt>
+              <dd class="col-sm-8 text-truncate"><a href="{{ page.code_repository_link }}" target="_blank">{{
+                  page.code_repository_link }}</a></dd>
+              {% endif %}
+              {% if page.reproducibility_link %}
+              <dt class="col-sm-4">Reproducibility</dt>
+              <dd class="col-sm-8 text-truncate"><a href="{{ page.reproducibility_link }}" target="_blank">{{
+                  page.reproducibility_link }}</a></dd>
+              {% endif %}
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
