@@ -1,3 +1,13 @@
+const COLOURS = [
+  'rgba(86, 159, 229, 0.5)',
+  'rgba(236, 110, 133, 0.5)',
+  'rgba(109, 190, 191, 0.5)',
+  'rgba(242, 163, 84, 0.5)',
+  'rgba(146, 104, 247, 0.5)',
+  'rgba(247, 207, 107, 0.5)',
+  'rgba(201, 203, 206, 0.5)',
+];
+
 function getValue(dictionary, key, default_value) {
   if (dictionary.hasOwnProperty(key)) {
     return dictionary[key];
