@@ -10,7 +10,7 @@ Forge RSE Skill Development Pathways is a resource to support RSEs (Research Sof
 
 Forge RSE comprises:
 
-1. An RSE competency framework, outlining a structured set of skills that are useful when working as an RSE, with examples of how these skills can be demonstrated at different levels of experience. Not all RSEs will o need to have all skills at all levels.
+1. An RSE competency framework, outlining a structured set of skills that are useful when working as an RSE, with examples of how these skills can be demonstrated at different levels of experience. Not all RSEs will or need to have all skills at all levels.
 2. A curated set of training resources, linked to the skills and levels from the competency framework.
 3. A tool to visualise and compare different competency profiles.
 
