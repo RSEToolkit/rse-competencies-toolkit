@@ -23,7 +23,7 @@ Forge RSE aims to support the following uses:
 
 ### More information
 - [CW23 Hack day report](https://docs.google.com/document/d/1ApTf8RcB86-RXrCJfCUMWDt6kRWSM0wVzBsPMCyhC8g)
-- [CW23 Hakc day presentation](https://docs.google.com/presentation/d/15RBtaJ4W5bUWV7aHrwV0wX7op7hewl3B-w7vj6wieHg/edit#slide=id.g1e2424db41c_2_0)
+- [CW23 Hack day presentation](https://docs.google.com/presentation/d/15RBtaJ4W5bUWV7aHrwV0wX7op7hewl3B-w7vj6wieHg/edit#slide=id.g1e2424db41c_2_0)
 
 ### Project team
 See Contriburtors section below.
@@ -35,6 +35,7 @@ This section is intended to list the frameworks and tools you're using to develo
 - [CSCCE Skills Wheel](https://zenodo.org/record/4437294#.ZFO3F-zMIc1)
 - [BCS SFIA Plus](https://www.bcs.org/it-careers/sfiaplus-it-skills-framework/)
 - [King's Digital Lab Research Software Careers Learnings](https://zenodo.org/record/2559235)
+- [RSE Toolkit](https://rsetoolkit.github.io/)
 - [Jekyll](https://jekyllrb.com/)  
 - [Chart.js](https://www.chartjs.org/)  
 
