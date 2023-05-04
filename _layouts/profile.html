@@ -17,9 +17,9 @@ layout: default
                             <div class="info-horizontal bg-gray-100 border-radius-xl d-block d-md-flex p-4 h-100">
                                 <div class="ps-0 ps-md-3 mt-3 mt-md-0">
                                     <div>
-                                        <div id="legend"></div>
+                                        <div id="legend-a"></div>
                                         <div>
-                                            <canvas id="chart"></canvas>
+                                            <canvas id="chart-a"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -32,9 +32,9 @@ layout: default
                             <div class="info-horizontal bg-gray-100 border-radius-xl d-block d-md-flex p-4 h-100">
                                 <div class="ps-0 ps-md-3 mt-3 mt-md-0">
                                     <div>
-                                        <div id="legend"></div>
+                                        <div id="legend-b"></div>
                                         <div>
-                                            <canvas id="chart"></canvas>
+                                            <canvas id="chart-b"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -45,9 +45,9 @@ layout: default
                             <div class="info-horizontal bg-gray-100 border-radius-xl d-block d-md-flex p-4 h-100">
                                 <div class="ps-0 ps-md-3 mt-3 mt-md-0">
                                     <div>
-                                        <div id="legend"></div>
+                                        <div id="legend-c"></div>
                                         <div>
-                                            <canvas id="chart"></canvas>
+                                            <canvas id="chart-c"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -93,17 +93,111 @@ layout: default
 
 
 <script>
-    const DATA = {
-        "Technical": {
-            "Coding": 1,
-            "Testing": 3,
-            "Documentation": 5,
+    const DATA_A = {
+        "Technical skills (general)": {
+            "Collaborative software development": 3,
+            "Version control": 3,
+            "Continuous integration / continuous delivery": 2,
+            "Systems design, architecture & development": 4,
+            "Software documentation": 5,
+            "Testing": 1,
+            "Coding conventions": 2,
+            "Software licensing": 1,
+            "Software packaging & release": 3,
+            "Programming paradigms": 1,
+            "Programming": 4,
+            "Environmental impact awareness": 3
+        },
+        "Technical (specific)": {
+            "Visualization": 2,
+            "High performance computing": 4,
+            "Programming languages": 1,
+            "Parallelization": 4,
+            "Web development": 7,
+            "Systems administration": 1,
+            "Data analysis": 1,
+            "AI/ML": 7,
+            "User Experience": 3,
+            "Technical translation between researchers and RSEs": 1,
+            "Virtualization & Cloud computing": 4,
+            "Code optimization": 2
         },
         "Interpersonal": {
-            "Communication": 2,
-            "Leadership": 4,
+            "Understanding of mental health, stress and burnout": 6,
+            "Building of community of practice": 3,
+            "Collaboration & building connections": 4,
+            "People management": 4,
+            "Leadership & communication skills": 1,
+            "Mentorship skills": 4,
+            "Stakeholder management": 4,
+            "Diversity, Equity and Inclusion": 4
+        },
+        "Leadership & management": {
+            "Project management": 7,
+            "Planning and organising events (workshops, meet-ups, conferences etc)": 1,
+            "Grant/proposal writing": 4,
+            "Evaluation and assessment": 1,
+            "Agile project management methodologies": 5,
+            "Recruitment": 4,
+            "Resource management (time, budget)": 7,
+            "Strategy": 4,
+            "Change management": 3,
+            "Domain expertise": 3,
+            "Research methodologies": 1,
+            "Ethics": 5,
+            "Domain-specific technical skills (AI/ML, research data and analytics, visualisation, computational science)": 2,
+            "Legal and regulatory": 7,
+            "Developing domain-specific training": 2
+        },
+        "Communication & dissemination": {
+            "Delivering training": 1,
+            "Writing and publication": 4,
+            "Public science communication": 5,
+            "Peer science communication": 1,
+            "Content and knowledge management": 4
         }
     };
 
-    createSkillChart(DATA);
+    const DATA_B = {
+        "Technical skills (general)": {
+            "Collaborative software development": 3,
+            "Coding conventions": 2,
+            "Software licensing": 1,
+            "Programming": 4,
+            "Environmental impact awareness": 3
+        },
+        "Technical (specific)": {
+            "Visualization": 2,
+            "Parallelization": 4,
+            "User Experience": 3,
+            "Technical translation between researchers and RSEs": 1,
+            "Code optimization": 2
+        }
+    };
+
+    const DATA_C = {
+        "Interpersonal": {
+            "Collaboration & building connections": 4,
+            "People management": 4,
+            "Stakeholder management": 4,
+            "Diversity, Equity and Inclusion": 4
+        },
+        "Leadership & management": {
+            "Project management": 7,
+            "Recruitment": 4,
+            "Resource management (time, budget)": 7,
+            "Strategy": 4,
+            "Domain expertise": 3,
+            "Research methodologies": 1,
+            "Developing domain-specific training": 2
+        },
+        "Communication & dissemination": {
+            "Delivering training": 1,
+            "Content and knowledge management": 4
+        }
+    };
+
+    createSkillChart(DATA_A, chart_id = "chart-a", legend_id = "legend-a");
+    createSkillChart(DATA_B, chart_id = "chart-b", legend_id = "legend-b");
+    createSkillChart(DATA_C, chart_id = "chart-c", legend_id = "legend-c");
 </script>
