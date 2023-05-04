@@ -70,20 +70,16 @@ function makeLegend(labels, id) {
 }
 
 function createSkillChart(data, chart_id = 'chart', legend_id = 'legend') {
+  if (Object.keys(data).length > COLOURS.length) {
+    throw 'Too many areas in data!';
+  }
+
   const ctx = document.getElementById(chart_id);
 
   const area_labels = Object.keys(data);
   const skill_labels = Object.entries(data).flatMap(([area, skills]) => Object.keys(skills));
 
-  // const SKILL_TO_AREA_MAP = Object.fromEntries(
-  //   Object.entries(DATA).flatMap(
-  //     ([area, skills]) => Object.keys(skills).map(
-  //       (skill) => [skill, area],
-  //     )
-  //   )
-  // );
-
-  const chart = new Chart(
+  new Chart(
     ctx,
     {
       type: 'polarArea',
