@@ -8,9 +8,18 @@ The idea is to constructe a resource that is for the RSE community and curated b
 
 ## About
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ante at eleifend eleifend. Sed non vestibulum nisi. Aliquam vel condimentum quam. Donec fringilla et purus at auctor. Praesent euismod vitae metus non consectetur. Sed interdum aliquet nisl at efficitur. Nulla urna quam, gravida eget elementum eget, mattis nec tortor. Fusce ut neque tellus. Integer at magna feugiat lacus porta posuere eget vitae metus.
+Forge RSE Skill Development Pathways is a resource to support RSEs (Research Software Engineers) in tracking and managing their professional development. It comprises:
 
-Curabitur a tempus arcu. Maecenas blandit risus quam, quis convallis justo pretium in. Suspendisse rutrum, elit at venenatis cursus, dolor ligula iaculis dui, ut dignissim enim justo at ligula. Donec interdum dignissim egestas. Nullam nec ultrices enim. Nam quis arcu tincidunt, auctor purus sit amet, aliquam libero. Fusce rhoncus lectus ac imperdiet varius. Sed gravida urna eros, ac luctus justo condimentum nec. Integer ultrices nibh in neque sagittis, at pretium erat pretium. Praesent feugiat purus id iaculis laoreet. Proin in tellus tristique, congue ante in, sodales quam. Sed imperdiet est tortor, eget vestibulum tortor pulvinar volutpat. In et pretium nisl.
+1. An RSE competency framework, outlining a structured set of skills that are useful when working as an RSE, with examples of how these skills can be demonstrated at different levels of experience. Not all RSEs will o need to have all skills at all levels.
+2. A curated set of training resources, linked to the skills and levels from the competency framework.
+3. A tool to visualise and compare different competency profiles.
+
+Forge RSE aims to support the following uses:
+
+1. Recording and visualising your competency profile as an individual RSE
+2. Comparing competency profiles across a group of RSEs (e.g. to show the commonalities and variety across RSEs doing the same role at the same level at the same organisation, or comparing across organisations)
+3. Find high-quality training resources to improve skills in a particular competency
+4. Define aspirational competency profiles, illustrate the gap to your current profile and highlight training resources that could help bridge that gap.
 
 ### Project Team
 Dave Horsfall, Newcastle University  ([dave.horsfall@newcastle.ac.uk](mailto:dave.horsfall@newcastle.ac.uk))  
