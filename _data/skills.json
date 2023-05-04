@@ -1,0 +1,66 @@
+{
+    "Technical skills (general)": [
+        "Collaborative software development",
+        "Version control",
+        "Continuous integration / continuous delivery",
+        "Systems design, architecture & development",
+        "Software documentation",
+        "Testing",
+        "Coding conventions",
+        "Software licensing",
+        "Software packaging & release",
+        "Programming paradigms",
+        "Programming",
+        "Environmental impact awareness"
+    ],
+    "Technical (specific)": [
+        "Visualization",
+        "High performance computing",
+        "Programming languages",
+        "Parallelization",
+        "Web development",
+        "Systems administration",
+        "Data analysis",
+        "AI/ML",
+        "User Experience",
+        "Technical translation between researchers and RSEs",
+        "Virtualization & Cloud computing",
+        "Code optimization"
+    ],
+    "Interpersonal": [
+        "Understanding of mental health, stress and burnout",
+        "Building of community of practice",
+        "Collaboration & building connections",
+        "People management",
+        "Leadership & communication skills",
+        "Mentorship skills",
+        "Stakeholder management",
+        "Diversity, Equity and Inclusion"
+    ],
+    "Leadership & management": [
+        "Project management",
+        "Planning and organising events (workshops, meet-ups, conferences etc)",
+        "Grant/proposal writing",
+        "Evaluation and assessment",
+        "Agile project management methodologies",
+        "Recruitment",
+        "Event organisation/management",
+        "Resource management (time, budget)",
+        "Strategy",
+        "Change management"
+    ],
+    "Domain expertise": [
+        "Research methodologies",
+        "Ethics",
+        "Domain-specific technical skills (AI/ML, research data and analytics, visualisation, computational science)",
+        "Legal and regulatory",
+        "Developing domain-specific training"
+    ],
+    "Communication & dissemination": [
+        "Delivering training",
+        "Writing and publication",
+        "Public science communication",
+        "Peer science communication",
+        "Content and knowledge management"
+    ]
+}
