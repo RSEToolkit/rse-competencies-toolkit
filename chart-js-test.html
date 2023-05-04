@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div>
+      <div id="legend"></div>
+      <div>
+        <canvas id="chart"></canvas>
+      </div>
+    </div>
+
+    <script src="./js/chart.js"></script>
+    <script src="./js/skills_chart.js"></script>
+
+    <script>
+      const COLOURS = [
+        'rgba(86, 159, 229, 0.5)',
+        'rgba(236, 110, 133, 0.5)',
+        'rgba(109, 190, 191, 0.5)',
+        'rgba(242, 163, 84, 0.5)',
+        'rgba(146, 104, 247, 0.5)',
+        'rgba(247, 207, 107, 0.5)',
+        'rgba(201, 203, 206, 0.5)',
+      ];
+
+      const DATA = {
+        "Technical": {
+          "Coding": 1,
+          "Testing": 3,
+          "Documentation": 5,
+        },
+        "Interpersonal": {
+          "Communication": 2,
+          "Leadership": 4,
+        }
+      };
+
+      createSkillChart(DATA);
+    </script>
+  </body>
+</html>
