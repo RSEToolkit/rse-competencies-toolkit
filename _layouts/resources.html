@@ -32,7 +32,7 @@ layout: default
                     <tr>
                       <td>{{ resource.title }}</td>
                       <td>{{ resource.category }}</td>
-                      <td><a href="{% link resource.markdown %}" class="btn btn-primary m-auto">View
+                      <td><a href="{{ site.baseurl }}{% link resource.markdown %}" class="btn btn-primary m-auto">View
                           Competance</a></td>
                     </tr>
                     {% endfor %}
