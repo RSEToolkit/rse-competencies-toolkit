@@ -123,16 +123,16 @@ The initial version of this repository was created during a Software Sustainabil
 ## Contributors
 Contributors (in alphabetical order by first name). Collectively the "Forge RSE team".
 
-Aleksandra Nenadic
-Aman Goel
-Dave Horsfall 
-Diego Alonso Álvarez 
-Eli Chadwick
-Hannah Williams 
-Iain Barrass
-Lieke de Boer
-Martin O’Reilly
-Matthew Bluteau
-Nadine Spychala
-Paul K Korir
-Sean Marshallsay
+- Aleksandra Nenadic
+- Aman Goel
+- Dave Horsfall 
+- Diego Alonso Álvarez 
+- Eli Chadwick
+- Hannah Williams 
+- Iain Barrass
+- Lieke de Boer
+- Martin O’Reilly
+- Matthew Bluteau
+- Nadine Spychala
+- Paul K Korir
+- Sean Marshallsay
