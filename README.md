@@ -1,14 +1,14 @@
 # SSI CW23 Hack Day: Forge RSE Skill Development Pathways
 
-A template repo for the standard RSE project
-
 This repository was created from a Software Sustainability Institute Collaborations Workshop 2023 Hack Day. 
 
 The idea is to constructe a resource that is for the RSE community and curated by the RSE community. 
 
 ## About
 
-Forge RSE Skill Development Pathways is a resource to support RSEs (Research Software Engineers) in tracking and managing their professional development. It comprises:
+Forge RSE Skill Development Pathways is a resource to support RSEs (Research Software Engineers) in tracking and managing their professional development. Note that, while we've focussed on RSEs for the initial hack day demonstration, this tool can be used for any roles. We plan to extend this to other research roles and welcome contributions and collaboration from anyone working in research, broadly defined.
+
+Forge RSE comprises:
 
 1. An RSE competency framework, outlining a structured set of skills that are useful when working as an RSE, with examples of how these skills can be demonstrated at different levels of experience. Not all RSEs will o need to have all skills at all levels.
 2. A curated set of training resources, linked to the skills and levels from the competency framework.
@@ -21,26 +21,32 @@ Forge RSE aims to support the following uses:
 3. Find high-quality training resources to improve skills in a particular competency
 4. Define aspirational competency profiles, illustrate the gap to your current profile and highlight training resources that could help bridge that gap.
 
-### Project Team
-Dave Horsfall, Newcastle University  ([dave.horsfall@newcastle.ac.uk](mailto:dave.horsfall@newcastle.ac.uk))  
+### More information
+- [CW23 Hack day report](https://docs.google.com/document/d/1ApTf8RcB86-RXrCJfCUMWDt6kRWSM0wVzBsPMCyhC8g)
+- [CW23 Hakc day presentation](https://docs.google.com/presentation/d/15RBtaJ4W5bUWV7aHrwV0wX7op7hewl3B-w7vj6wieHg/edit#slide=id.g1e2424db41c_2_0)
+
+### Project team
+See Contriburtors section below.
 
 ## Built With
 
 This section is intended to list the frameworks and tools you're using to develop this software. Please link to the home page or documentatation in each case.
 
-[Framework 1](https://something.com)  
-[Framework 2](https://something.com)  
-[Framework 3](https://something.com)  
+- [CSCCE Skills Wheel](https://zenodo.org/record/4437294#.ZFO3F-zMIc1)
+- [BCS SFIA Plus](https://www.bcs.org/it-careers/sfiaplus-it-skills-framework/)
+- [King's Digital Lab Research Software Careers Learnings](https://zenodo.org/record/2559235)
+- [Jekyll](https://jekyllrb.com/)  
+- [Chart.js](https://www.chartjs.org/)  
 
 ## Getting Started
 
 ### Prerequisites
 
-Any tools or versions of languages needed to run code. For example specific Python or Node versions. Minimum hardware requirements also go here.
+- Latest version of [Ruby](https://www.ruby-lang.org/en/)
 
 ### Installation
 
-How to build or install the applcation.
+How to build or install the application.
 
 ```sh
 git clone git@github.com:RSEToolkit/training.git
@@ -58,21 +64,21 @@ bundle exec jekyll serve
 
 ### Running Tests
 
-How to run tests on your local system.
+No tests as yet.
 
 ## Deployment
 
 ### Local
 
-Deploying to a production style setup but on the local system. Examples of this would include `venv`, `anaconda`, `Docker` or `minikube`. 
+See running locally above.
 
 ### Production
 
-Deploying to the production system. Examples of this would include cloud, HPC or virtual machine. 
+Deployed automatically via GitHub actions. 
 
 ## Usage
 
-Any links to production environment, video demos and screenshots.
+To come after the hack day
 
 ## Roadmap
 
@@ -90,9 +96,7 @@ Protected and can only be pushed to via pull requests. Should be considered stab
 Should be considered fragile, code should compile and run but features may be prone to errors.
 
 ### Feature Branches
-A branch per feature being worked on. 
-
-https://nvie.com/posts/a-successful-git-branching-model/
+A branch per feature being worked on. We are using this [git branching model](https://nvie.com/posts/a-successful-git-branching-model/).
 
 ## License
 Unless otherwise specified on particular materials, all material in this repository is licensed as follows:
@@ -101,7 +105,7 @@ Unless otherwise specified on particular materials, all material in this reposit
 
 ## Citation
 
-Please cite the associated papers for this work if you use this code:
+Please cite this work as follows:
 
 ```
 @article{ForgeRSE2023,
