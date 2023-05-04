@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
+
+  <section class="my-5 py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-10 ms-auto me-auto">
+          <h3>Training Resources </h3>
+          <h6 class="text-secondary font-weight-normal pe-3">elements that you need for text manipulation and
+            insertion
+          </h6>
+
+          <!-- Input with icon -->
+          <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
+            <div class="tab-content tab-space">
+              <div class="tab-pane active" id="preview-inputs-2">
+
+
+
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Area</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    {% assign resources = site.data.resources | sort: "Name" | reverse %}
+                    {% for resource in resources %}
+                    <tr>
+                      <th scope="row">{{ resource.Id }}</th>
+                      <td> {{ resource.Name }}</td>
+                      <td>Test</td>
+                      <td>@mdo</td>
+                    </tr>
+                    {% endfor %}
+
+
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+</div>
