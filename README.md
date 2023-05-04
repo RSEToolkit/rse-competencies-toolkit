@@ -1,14 +1,14 @@
 # SSI CW23 Hack Day: Forge RSE Skill Development Pathways
 
-A template repo for the standard RSE project
-
 This repository was created from a Software Sustainability Institute Collaborations Workshop 2023 Hack Day. 
 
 The idea is to constructe a resource that is for the RSE community and curated by the RSE community. 
 
 ## About
 
-Forge RSE Skill Development Pathways is a resource to support RSEs (Research Software Engineers) in tracking and managing their professional development. It comprises:
+Forge RSE Skill Development Pathways is a resource to support RSEs (Research Software Engineers) in tracking and managing their professional development. Note that, while we've focussed on RSEs for the initial hack day demonstration, this tool can be used for any roles. We plan to extend this to other research roles and welcome contributions and collaboration from anyone working in research, broadly defined.
+
+Forge RSE comprises:
 
 1. An RSE competency framework, outlining a structured set of skills that are useful when working as an RSE, with examples of how these skills can be demonstrated at different levels of experience. Not all RSEs will o need to have all skills at all levels.
 2. A curated set of training resources, linked to the skills and levels from the competency framework.
