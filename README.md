@@ -81,25 +81,44 @@ Protected and can only be pushed to via pull requests. Should be considered stab
 Should be considered fragile, code should compile and run but features may be prone to errors.
 
 ### Feature Branches
-A branch per feature being worked on.
+A branch per feature being worked on. 
 
 https://nvie.com/posts/a-successful-git-branching-model/
 
 ## License
+Unless otherwise specified on particular materials, all material in this repository is licensed as follows:
+- Code is licenced under the [3-clause BSD licence](https://opensource.org/license/bsd-3-clause/)
+- Documentation, data and other written material is licensed under the [Creative Commons Attribution licence](https://creativecommons.org/licenses/by/4.0/) (CC-BY 4.0)
 
 ## Citation
 
 Please cite the associated papers for this work if you use this code:
 
 ```
-@article{xxx2023paper,
-  title={Title},
-  author={Author},
-  journal={arXiv},
+@article{ForgeRSE2023,
+  title={Forge RSE Skills Development Pathways},
+  author={Forge RSE team},
+  journal={GitHub},
   year={2023}
 }
 ```
 
-
 ## Acknowledgements
-This work was funded by a grant from the UK Research Councils, EPSRC grant ref. EP/L012345/1, “Example project title, please update”.
+The initial version of this repository was created during a Software Sustainability Institute Collaborations Workshop 2023 Hack Day.
+
+## Contributors
+Contributors (in alphabetical order by first name). Collectively the "Forge RSE team".
+
+Aleksandra Nenadic
+Aman Goel
+Dave Horsfall 
+Diego Alonso Álvarez 
+Eli Chadwick
+Hannah Williams 
+Iain Barrass
+Lieke de Boer
+Martin O’Reilly
+Matthew Bluteau
+Nadine Spychala
+Paul K Korir
+Sean Marshallsay
