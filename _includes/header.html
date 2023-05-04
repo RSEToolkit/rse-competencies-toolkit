@@ -5,8 +5,9 @@
             <nav
                 class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
                 <div class="container-fluid px-0">
-                    <a class="navbar-brand font-weight-bolder ms-sm-3" href="{% link index.markdown %}" rel="tooltip"
-                        title="Learning" data-placement="bottom" target="_blank">
+                    <a class="navbar-brand font-weight-bolder ms-sm-3"
+                        href="{{ site.baseurl }}{% link index.markdown %}" rel="tooltip" title="Learning"
+                        data-placement="bottom" target="_blank">
                         <i class="fa fa-graduation-cap me-1"></i>
                         Forge RSE
                     </a>
@@ -22,19 +23,22 @@
                     <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
                         <ul class="navbar-nav navbar-nav-hover ms-auto">
                             <li class="nav-item ms-lg-auto">
-                                <a class="nav-link nav-link-icon me-2" href="{% link framework.markdown %}">
+                                <a class="nav-link nav-link-icon me-2"
+                                    href="{{ site.baseurl }}{% link framework.markdown %}">
                                     <p class="d-inline text-sm z-index-1" data-bs-toggle="tooltip"
                                         data-bs-placement="bottom" title="Star us on Github">Competancy Framework</p>
                                 </a>
                             </li>
                             <li class="nav-item ms-lg-auto">
-                                <a class="nav-link nav-link-icon me-2" href="{% link resources.markdown %}">
+                                <a class="nav-link nav-link-icon me-2"
+                                    href="{{ site.baseurl }}{% link resources.markdown %}">
                                     <p class="d-inline text-sm z-index-1" data-bs-toggle="tooltip"
                                         data-bs-placement="bottom" title="Star us on Github">Training Resources</p>
                                 </a>
                             </li>
                             <li class="nav-item ms-lg-auto">
-                                <a class="nav-link nav-link-icon me-2" href="{% link profiles.markdown %}">
+                                <a class="nav-link nav-link-icon me-2"
+                                    href="{{ site.baseurl }}{% link profiles.markdown %}">
                                     <p class="d-inline text-sm z-index-1" data-bs-toggle="tooltip"
                                         data-bs-placement="bottom" title="Star us on Github">Profiles</p>
                                 </a>
