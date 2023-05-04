@@ -7,47 +7,77 @@ layout: default
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-10 ms-auto me-auto">
-                    <h3>Competancy Profiles</h3>
+                    <h3>Hannah Williams</h3>
+                    <h4>Competancy Wheels</h4>
                     <h6 class="text-secondary font-weight-normal pe-3">
                     </h6>
+                    <div class="row align-items-center">
 
-                    <div class="row">
-                        <div class="col-lg-4">
-
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 px-lg-1 mt-lg-0 mt-4">
-                        <div class="info-horizontal bg-gray-100 border-radius-xl d-block d-md-flex p-4 h-100">
-                            <i class="material-icons text-gradient text-primary text-3xl">precision_manufacturing</i>
-                            Global overview
-                            <div class="ps-0 ps-md-3 mt-3 mt-md-0">
-                                <div>
-                                    <div id="legend"></div>
+                        <div class="col-lg-4 px-lg-1 mt-lg-0 mt-4">
+                            <div class="info-horizontal bg-gray-100 border-radius-xl d-block d-md-flex p-4 h-100">
+                                <div class="ps-0 ps-md-3 mt-3 mt-md-0">
                                     <div>
-                                        <canvas id="chart"></canvas>
+                                        <div id="legend"></div>
+                                        <div>
+                                            <canvas id="chart"></canvas>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-4 mt-lg-0 mt-4">
-                        <div class="info-horizontal bg-gray-100 border-radius-xl d-block d-md-flex p-4">
-                            <i class="material-icons text-gradient text-primary text-3xl">receipt_long</i>
-                            <div class="ps-0 ps-md-3 mt-3 mt-md-0">
-                                <h5>Utility Classes</h5>
-                                <p>Material Kit is giving you a lot of pre-made elements. For those who want
-                                    flexibility, we included
-                                    many utility classes.</p>
-                                <a href="https://www.creative-tim.com/learning-lab/bootstrap/utilities/material-kit"
-                                    class="text-primary icon-move-right">
-                                    Read more
-                                    <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-                                </a>
+
+
+                        <div class="col-lg-4 px-lg-1 mt-lg-0 mt-4">
+                            <div class="info-horizontal bg-gray-100 border-radius-xl d-block d-md-flex p-4 h-100">
+                                <div class="ps-0 ps-md-3 mt-3 mt-md-0">
+                                    <div>
+                                        <div id="legend"></div>
+                                        <div>
+                                            <canvas id="chart"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="col-lg-4 px-lg-1 mt-lg-0 mt-4">
+                            <div class="info-horizontal bg-gray-100 border-radius-xl d-block d-md-flex p-4 h-100">
+                                <div class="ps-0 ps-md-3 mt-3 mt-md-0">
+                                    <div>
+                                        <div id="legend"></div>
+                                        <div>
+                                            <canvas id="chart"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+
+                    <h4>Completed Training</h4>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Category</th>
+                                <th>Competency level</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% assign resources = site.data.resources_list | sort: "Name" | reverse %}
+                            {% for resource in resources %}
+                            <tr>
+                                <td>{{ resource.title }}</td>
+                                <td>{{ resource.category }}</td>
+                                <td><a href="{% link resource.markdown %}" class="btn btn-primary m-auto">View
+                                        Competance</a></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
                 </div>
 
 
