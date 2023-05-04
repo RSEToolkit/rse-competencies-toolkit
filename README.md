@@ -6,6 +6,8 @@ The idea is to constructe a resource that is for the RSE community and curated b
 
 ## About
 
+![Screenshot of competency visualisations](rse-forge-screenshot.png)
+
 Forge RSE Skill Development Pathways is a resource to support RSEs (Research Software Engineers) in tracking and managing their professional development. Note that, while we've focussed on RSEs for the initial hack day demonstration, this tool can be used for any roles. We plan to extend this to other research roles and welcome contributions and collaboration from anyone working in research, broadly defined.
 
 Forge RSE comprises:
