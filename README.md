@@ -1,4 +1,4 @@
-# SSI CW23 Hack Day: Forge RSE Skill Development Pathways
+# RSE Competencies Framework
 
 This repository was created from a Software Sustainability Institute Collaborations Workshop 2023 Hack Day. 
 
@@ -8,15 +8,15 @@ The idea is to construct a resource that is for the RSE community and curated by
 
 ![Screenshot of competency visualisations](rse-forge-screenshot.png)
 
-Forge RSE Skill Development Pathways is a resource to support RSEs (Research Software Engineers) in tracking and managing their professional development. Note that, while we've focussed on RSEs for the initial hack day demonstration, this tool can be used for any roles. We plan to extend this to other research roles and welcome contributions and collaboration from anyone working in research, broadly defined.
+RSE Competencies Toolkit is a resource to support RSEs (Research Software Engineers) in tracking and managing their professional development. Note that, while we've focussed on RSEs for the initial hack day demonstration, this tool can be used for any roles. We plan to extend this to other research roles and welcome contributions and collaboration from anyone working in research, broadly defined.
 
-Forge RSE comprises:
+RSE Competencies Toolkit comprises:
 
 1. An RSE competency framework, outlining a structured set of skills that are useful when working as an RSE, with examples of how these skills can be demonstrated at different levels of experience. Not all RSEs will or need to have all skills at all levels.
 2. A curated set of training resources, linked to the skills and levels from the competency framework.
 3. A tool to visualise and compare different competency profiles.
 
-Forge RSE aims to support the following uses:
+RSE Competencies Toolkit aims to support the following uses:
 
 1. Recording and visualising your competency profile as an individual RSE
 2. Comparing competency profiles across a group of RSEs (e.g. to show the commonalities and variety across RSEs doing the same role at the same level at the same organisation, or comparing across organisations)
@@ -111,9 +111,9 @@ Unless otherwise specified on particular materials, all material in this reposit
 Please cite this work as follows:
 
 ```
-@article{ForgeRSE2023,
-  title={Forge RSE Skills Development Pathways},
-  author={Forge RSE team},
+@article{RSECompetenciesToolkit2023,
+  title={RSE Competencies Toolkit},
+  author={RSE Competencies Toolkit team},
   journal={GitHub},
   year={2023}
 }
@@ -123,7 +123,7 @@ Please cite this work as follows:
 The initial version of this repository was created during a Software Sustainability Institute Collaborations Workshop 2023 Hack Day.
 
 ## Contributors
-Contributors (in alphabetical order by first name). Collectively the "Forge RSE team".
+Contributors (in alphabetical order by first name). Collectively the "RSE Competencies Toolkit team".
 
 - Aleksandra Nenadic
 - Aman Goel
