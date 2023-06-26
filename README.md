@@ -31,6 +31,8 @@ Forge RSE aims to support the following uses:
 ### Project team
 See Contriburtors section below.
 
+You can contact the team at [mailto:rse-competencies-toolkit@googlegroups.com](rse-competencies-toolkit@googlegroups.com).
+
 ## Built With
 
 This section is intended to list the frameworks and tools you're using to develop this software. Please link to the home page or documentatation in each case.
@@ -139,3 +141,8 @@ Contributors (in alphabetical order by first name). Collectively the "Forge RSE 
 - Nadine Spychala
 - Paul K Korir
 - Sean Marshallsay
+
+## Contact
+
+If you'd like to get in touch with the project team - write to us at [mailto:rse-competencies-toolkit@googlegroups.com](rse-competencies-toolkit@googlegroups.com).
+
