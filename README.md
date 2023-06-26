@@ -31,7 +31,7 @@ RSE Competencies Toolkit aims to support the following uses:
 ### Project team
 See Contriburtors section below.
 
-You can contact the team at [mailto:rse-competencies-toolkit@googlegroups.com](rse-competencies-toolkit@googlegroups.com).
+You can contact the team at [rse-competencies-toolkit@googlegroups.com](mailto:rse-competencies-toolkit@googlegroups.com).
 
 ## Built With
 
@@ -144,5 +144,5 @@ Contributors (in alphabetical order by first name). Collectively the "RSE Compet
 
 ## Contact
 
-If you'd like to get in touch with the project team - write to us at [mailto:rse-competencies-toolkit@googlegroups.com](rse-competencies-toolkit@googlegroups.com).
+If you'd like to get in touch with the project team - write to us at [rse-competencies-toolkit@googlegroups.com](mailto:rse-competencies-toolkit@googlegroups.com).
 
