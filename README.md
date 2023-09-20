@@ -30,14 +30,14 @@ RSE Competencies Toolkit aims to support the following uses:
 ### Current Status
 
 - [x] Initial Research
-- [ ] Initial Development <-- You are Here  
+- [ ] Initial Development <-- We are Here  
 - [ ] Minimum viable product 
 - [ ] Alpha Release  
 - [ ] Feature-Complete Release  
 
 ### Support Needed
 
-We need support in the following areas. If you have an hour to contribute, please
+We need support and feedback in the following areas. Contributions of all sizes are welcome.
 
 #### Defining the skills framework
 
