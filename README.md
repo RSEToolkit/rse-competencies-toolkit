@@ -1,8 +1,8 @@
 # RSE Competencies Framework
 
-This repository was created from a Software Sustainability Institute Collaborations Workshop 2023 Hack Day. 
+This repository was created from a Software Sustainability Institute Collaborations Workshop 2023 Hack Day.
 
-The idea is to construct a resource that is for the RSE community and curated by the RSE community. 
+The idea is to construct a resource that is for the RSE community and curated by the RSE community.
 
 **We need your support to get this project to a stage where it can be tested - [see how to contribute](#support-needed)!**
 
@@ -31,7 +31,7 @@ RSE Competencies Toolkit aims to support the following uses:
 
 - [x] Initial Research
 - [ ] Initial Development <-- We are Here  
-- [ ] Minimum viable product 
+- [ ] Minimum viable product
 - [ ] Alpha Release  
 - [ ] Feature-Complete Release  
 
@@ -52,13 +52,14 @@ We have a [working document on skill levels](https://docs.google.com/document/d/
 #### Developing the website
 
 The [website](https://rsetoolkit.github.io/rse-competencies-toolkit/) is currently a basic proof of concept developed during the CW23 Hack Day. We need support to develop a website that can:
-* Show descriptions of all the skills
-* Display and link the professional development resources curated for each skill
-* Allow people to score their own skills and view their skill wheels
+
+- Show descriptions of all the skills
+- Display and link the professional development resources curated for each skill
+- Allow people to score their own skills and view their skill wheels
 
 #### Curating professional development resources
 
-We have a file with [resources for professional development](./_data/resources.csv) mapped to skills in the framework. 
+We have a file with [resources for professional development](./_data/resources.csv) mapped to skills in the framework.
 
 If you would like to suggest resources to add to the collection, please add them to the [GitHub issue on curation](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/44).
 
@@ -67,9 +68,11 @@ If you would like to suggest resources to add to the collection, please add them
 Anyone is welcome to contribute suggestions, feedback, and/or PRs to address any open issues. You can also open a new issue if your idea is not yet mentioned anywhere else.
 
 ### More information
+
 See the [all documents](./all_documents.md) page.
 
 ### Project team
+
 See Contributors section below.
 
 You can contact the team at [rse-competencies-toolkit@googlegroups.com](mailto:rse-competencies-toolkit@googlegroups.com).
@@ -79,12 +82,14 @@ You can contact the team at [rse-competencies-toolkit@googlegroups.com](mailto:r
 This section is intended to list the frameworks and tools you're using to develop this software. Please link to the home page or documentatation in each case.
 
 ### Framework references
+
 - [CSCCE Skills Wheel](https://zenodo.org/record/4437294#.ZFO3F-zMIc1)
 - [BCS SFIA Plus](https://www.bcs.org/it-careers/sfiaplus-it-skills-framework/)
 - [King's Digital Lab Research Software Careers Learnings](https://zenodo.org/record/2559235)
 - [RSE Toolkit](https://rsetoolkit.github.io/)
 
 ### Website
+
 - [Jekyll](https://jekyllrb.com/)  
 - [Chart.js](https://www.chartjs.org/)  
 
@@ -124,14 +129,16 @@ See [running locally](#running-locally) above.
 
 ### Production
 
-Deployed automatically via GitHub actions. 
+Deployed automatically via GitHub actions.
 
 ## Usage
 
 To come after the hack day
 
 ## License
+
 Unless otherwise specified on particular materials, all material in this repository is licensed as follows:
+
 - Code is licenced under the [3-clause BSD licence](https://opensource.org/license/bsd-3-clause/)
 - Documentation, data and other written material is licensed under the [Creative Commons Attribution licence](https://creativecommons.org/licenses/by/4.0/) (CC-BY 4.0)
 
@@ -149,17 +156,19 @@ Please cite this work as follows:
 ```
 
 ## Acknowledgements
+
 The initial version of this repository was created during a Software Sustainability Institute Collaborations Workshop 2023 Hack Day. Subsequent development was guided by a number of unconference sessions during RSECon23.
 
 ## Contributors
+
 Contributors (in alphabetical order by first name). Collectively the "RSE Competencies Toolkit team".
 
 - Aleksandra Nenadic
 - Aman Goel
-- Dave Horsfall 
-- Diego Alonso Álvarez 
+- Dave Horsfall
+- Diego Alonso Álvarez
 - Eli Chadwick
-- Hannah Williams 
+- Hannah Williams
 - Iain Barrass
 - Lieke de Boer
 - Martin O’Reilly
