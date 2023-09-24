@@ -1,14 +1,18 @@
 # RSE Competencies Framework
 
-This repository was created from a Software Sustainability Institute Collaborations Workshop 2023 Hack Day. 
+This repository was created from a Software Sustainability Institute Collaborations Workshop 2023 Hack Day.
 
-The idea is to construct a resource that is for the RSE community and curated by the RSE community. 
+The idea is to construct a resource that is for the RSE community and curated by the RSE community.
+
+**We need your support to get this project to a stage where it can be tested - [see how to contribute](#support-needed)!**
 
 ## About
 
 ![Screenshot of competency visualisations](rse-forge-screenshot.png)
 
-RSE Competencies Toolkit is a resource to support RSEs (Research Software Engineers) in tracking and managing their professional development. Note that, while we've focussed on RSEs for the initial hack day demonstration, this tool can be used for any roles. We plan to extend this to other research roles and welcome contributions and collaboration from anyone working in research, broadly defined.
+RSE Competencies Toolkit is a resource to support RSEs (Research Software Engineers) in tracking and managing their professional development. It is currently in the early stages of development and we welcome contributions and feedback.
+
+Note that, while we've focussed on RSE during the early stages of development, this tool can be used for any roles. We plan to extend this to other research roles and welcome contributions and collaboration from anyone working in research, broadly defined.
 
 RSE Competencies Toolkit comprises:
 
@@ -23,13 +27,53 @@ RSE Competencies Toolkit aims to support the following uses:
 3. Find high-quality training resources to improve skills in a particular competency
 4. Define aspirational competency profiles, illustrate the gap to your current profile and highlight training resources that could help bridge that gap.
 
+### Current Status
+
+- [x] Initial Research
+- [ ] Initial Development <-- We are Here  
+- [ ] Minimum viable product
+- [ ] Alpha Release  
+- [ ] Feature-Complete Release  
+
+### Support Needed
+
+We need support and feedback in the following areas. Contributions of all sizes are welcome.
+
+#### Defining the skills framework
+
+We have a [draft framework](./_data/skills.json) and a [GitHub issue to track suggestions](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/39).
+
+If you think skills are missing, needs clarification, or could be reorganised within the framework, please add your feedback to the [GitHub issue to track suggestions](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/39).
+
+#### Defining skill levels
+
+We have a [working document on skill levels](https://docs.google.com/document/d/1syrY4gyaAcNuONK0ANUiHgHcbJ3P9RoqSjy57AjUsuM/edit#heading=h.nlkwx70wrmf). Please add feedback as comments in that document.
+
+#### Developing the website
+
+The [website](https://rsetoolkit.github.io/rse-competencies-toolkit/) is currently a basic proof of concept developed during the CW23 Hack Day. We need support to develop a website that can:
+
+- Show descriptions of all the skills
+- Display and link the professional development resources curated for each skill
+- Allow people to score their own skills and view their skill wheels
+
+#### Curating professional development resources
+
+We have a file with [resources for professional development](./_data/resources.csv) mapped to skills in the framework.
+
+If you would like to suggest resources to add to the collection, please add them to the [GitHub issue on curation](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/44).
+
+#### All GitHub issues
+
+Anyone is welcome to contribute suggestions, feedback, and/or PRs to address any open issues. You can also open a new issue if your idea is not yet mentioned anywhere else.
+
 ### More information
-- [CW23 Hack day report](https://docs.google.com/document/d/1ApTf8RcB86-RXrCJfCUMWDt6kRWSM0wVzBsPMCyhC8g)
-- [CW23 Hack day presentation](https://docs.google.com/presentation/d/15RBtaJ4W5bUWV7aHrwV0wX7op7hewl3B-w7vj6wieHg/edit#slide=id.g1e2424db41c_2_0)
-- [CW23 working HackMD document](https://hackmd.io/LwyTCm2LRwahi7yP8M7Brg?both)
+
+See the [all documents](./all_documents.md) page.
 
 ### Project team
-See Contriburtors section below.
+
+See Contributors section below.
 
 You can contact the team at [rse-competencies-toolkit@googlegroups.com](mailto:rse-competencies-toolkit@googlegroups.com).
 
@@ -37,14 +81,19 @@ You can contact the team at [rse-competencies-toolkit@googlegroups.com](mailto:r
 
 This section is intended to list the frameworks and tools you're using to develop this software. Please link to the home page or documentatation in each case.
 
+### Framework references
+
 - [CSCCE Skills Wheel](https://zenodo.org/record/4437294#.ZFO3F-zMIc1)
 - [BCS SFIA Plus](https://www.bcs.org/it-careers/sfiaplus-it-skills-framework/)
 - [King's Digital Lab Research Software Careers Learnings](https://zenodo.org/record/2559235)
 - [RSE Toolkit](https://rsetoolkit.github.io/)
+
+### Website
+
 - [Jekyll](https://jekyllrb.com/)  
 - [Chart.js](https://www.chartjs.org/)  
 
-## Getting Started
+## Getting Started for Developers
 
 ### Prerequisites
 
@@ -55,7 +104,7 @@ This section is intended to list the frameworks and tools you're using to develo
 How to build or install the application.
 
 ```sh
-git clone git@github.com:RSEToolkit/training.git
+git clone git@github.com:RSEToolkit/rse-competences-toolkit.git
 cd training
 bundle install
 ```
@@ -76,36 +125,20 @@ No tests as yet.
 
 ### Local
 
-See running locally above.
+See [running locally](#running-locally) above.
 
 ### Production
 
-Deployed automatically via GitHub actions. 
+Deployed automatically via GitHub actions.
 
 ## Usage
 
 To come after the hack day
 
-## Roadmap
-
-- [x] Initial Research  
-- [ ] Minimum viable product <-- You are Here  
-- [ ] Alpha Release  
-- [ ] Feature-Complete Release  
-
-## Contributing
-
-### Main Branch
-Protected and can only be pushed to via pull requests. Should be considered stable and a representation of production code.
-
-### Dev Branch
-Should be considered fragile, code should compile and run but features may be prone to errors.
-
-### Feature Branches
-A branch per feature being worked on. We are using this [git branching model](https://nvie.com/posts/a-successful-git-branching-model/).
-
 ## License
+
 Unless otherwise specified on particular materials, all material in this repository is licensed as follows:
+
 - Code is licenced under the [3-clause BSD licence](https://opensource.org/license/bsd-3-clause/)
 - Documentation, data and other written material is licensed under the [Creative Commons Attribution licence](https://creativecommons.org/licenses/by/4.0/) (CC-BY 4.0)
 
@@ -123,17 +156,19 @@ Please cite this work as follows:
 ```
 
 ## Acknowledgements
-The initial version of this repository was created during a Software Sustainability Institute Collaborations Workshop 2023 Hack Day.
+
+The initial version of this repository was created during a Software Sustainability Institute Collaborations Workshop 2023 Hack Day. Subsequent development was guided by a number of unconference sessions during RSECon23.
 
 ## Contributors
+
 Contributors (in alphabetical order by first name). Collectively the "RSE Competencies Toolkit team".
 
 - Aleksandra Nenadic
 - Aman Goel
-- Dave Horsfall 
-- Diego Alonso Álvarez 
+- Dave Horsfall
+- Diego Alonso Álvarez
 - Eli Chadwick
-- Hannah Williams 
+- Hannah Williams
 - Iain Barrass
 - Lieke de Boer
 - Martin O’Reilly
@@ -145,4 +180,3 @@ Contributors (in alphabetical order by first name). Collectively the "RSE Compet
 ## Contact
 
 If you'd like to get in touch with the project team - write to us at [rse-competencies-toolkit@googlegroups.com](mailto:rse-competencies-toolkit@googlegroups.com).
-
