@@ -3,11 +3,10 @@
   lang="{{ page.lang | default: site.lang | default: 'en' }}">
 {%- include head.html -%}
 
-<body class="index-page bg-gray-200">
+<body class="{% if page.layout == 'home' %}bg-gray-200{% endif %}">
   {%- include header.html -%}
   {{ content }}
   {%- include footer.html -%}
-  <!-- Core Scripts -->
   <script src="{{ '/assets/js/core/popper.min.js' | relative_url }}" type="text/javascript"></script>
   <script src="{{ '/assets/js/core/bootstrap.min.js' | relative_url }}" type="text/javascript"></script>
   <script src="{{ '/assets/js/core/plugins/perfect-scrollbar.min.js' | relative_url }}" type="text/javascript"></script>
