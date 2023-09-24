@@ -1,15 +1,12 @@
 {% if page.layout == "home" %}
-
-<!-- Navbar Transparent -->
 <nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3  navbar-transparent ">
     {% else %}
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
         {% endif %}
-
         <div class="container">
-            <a class="navbar-brand  text-white " href="https://demos.creative-tim.com/material-kit/presentation"
-                rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
-                Material Kit 2
+            <a class="navbar-brand text-white " href="{% link index.md %}" rel="tooltip"
+                title="RSE Competencies Toolkit" data-placement="bottom" target="_blank">
+                <img src="../assets/img/1529053464.svg" alt="down-arrow" class="arrow ms-2 d-lg-block d-none">
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
@@ -22,17 +19,67 @@
             </button>
             <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0 ms-lg-12 ps-lg-5" id="navigation">
                 <ul class="navbar-nav navbar-nav-hover ms-auto">
-                    <li class="nav-item ms-lg-auto">
-                        <a class="nav-link nav-link-icon me-2" href="{% link profile.markdown %}">
-                            <p class="d-inline text-sm z-index-1" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                title="Star us on Github">Compentency Framework</p>
+                    <li class="nav-item dropdown dropdown-hover mx-2 ms-lg-6">
+                        <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+                            id="dropdownMenuPages8" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="material-icons opacity-6 me-2 text-md">dashboard</i>
+                            About
+                            <img src="../assets/img/down-arrow-white.svg" alt="down-arrow"
+                                class="arrow ms-2 d-lg-block d-none">
+                            <img src="../assets/img/down-arrow-dark.svg" alt="down-arrow"
+                                class="arrow ms-2 d-lg-none d-block">
                         </a>
+                        <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-lg mt-0 mt-lg-3"
+                            aria-labelledby="dropdownMenuPages8">
+                            <div class="d-none d-lg-block">
+                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+                                    Landing Pages
+                                </h6>
+                                <a href="../pages/about-us.html" class="dropdown-item border-radius-md">
+                                    <span>About Us</span>
+                                </a>
+                                <a href="../pages/contact-us.html" class="dropdown-item border-radius-md">
+                                    <span>Contact Us</span>
+                                </a>
+                                <a href="../pages/author.html" class="dropdown-item border-radius-md">
+                                    <span>Author</span>
+                                </a>
+                                <h6
+                                    class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3">
+                                    Account
+                                </h6>
+                                <a href="../pages/sign-in.html" class="dropdown-item border-radius-md">
+                                    <span>Sign In</span>
+                                </a>
+                            </div>
+                            <div class="d-lg-none">
+                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+                                    Landing Pages
+                                </h6>
+                                <a href="../pages/about-us.html" class="dropdown-item border-radius-md">
+                                    <span>About Us</span>
+                                </a>
+                                <a href="../pages/contact-us.html" class="dropdown-item border-radius-md">
+                                    <span>Contact Us</span>
+                                </a>
+                                <a href="../pages/author.html" class="dropdown-item border-radius-md">
+                                    <span>Author</span>
+                                </a>
+                                <h6
+                                    class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1 mt-3">
+                                    Account
+                                </h6>
+                                <a href="../pages/sign-in.html" class="dropdown-item border-radius-md">
+                                    <span>Sign In</span>
+                                </a>
+                            </div>
+                        </div>
                     </li>
                     <li class="nav-item dropdown dropdown-hover mx-2">
                         <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
                             id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="material-icons opacity-6 me-2 text-md">view_day</i>
-                            Sections
+                            Toolkit
                             <img src="../assets/img/down-arrow-white.svg" alt="down-arrow"
                                 class="arrow ms-2 d-lg-block d-none">
                             <img src="../assets/img/down-arrow-dark.svg" alt="down-arrow"
@@ -439,35 +486,24 @@
                     </li>
                     <li class="nav-item my-auto ms-3 ms-lg-0">
                         <a href="https://www.creative-tim.com/product/material-kit-pro"
-                            class="btn btn-sm  bg-white  mb-0 me-1 mt-2 mt-md-0">Upgrade to Pro</a>
+                            class="btn btn-sm  bg-white  mb-0 me-1 mt-2 mt-md-0">Login</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     {% if page.layout == "home" %}
-
-
     <header class="bg-gradient-dark">
         <div class="page-header min-vh-75" style="background-image: url('../assets/img/hero-1.png');">
-            <span class="mask bg-gradient-dark opacity-6"></span>
+            <span class="mask bg-gradient-dark opacity-5"></span>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center mx-auto my-auto">
-                        <h1 class="text-white">RSE Competency Toolkit</h1>
-                        <p class="lead mb-4 text-white opacity-8">Shared, collaborative and progressive learning paths
-                            for
-                            roles in
-                            the RSE
-                            community.</p>
+                        <h1 class="text-white">Research Software<br />Competencies Toolkit</h1>
+                        <p class="lead mb-4 text-white opacity-8">Identify skills, define development pathways and
+                            progress your
+                            career in research software.</p>
                         <button type="submit" class="btn bg-white text-dark">Create Account</button>
-                        <h6 class="text-white mb-2 mt-5">Find us on</h6>
-                        <div class="d-flex justify-content-center">
-                            <a href="javascript:;"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
-                            <a href="javascript:;"><i class="fab fa-instagram text-lg text-white me-4"></i></a>
-                            <a href="javascript:;"><i class="fab fa-twitter text-lg text-white me-4"></i></a>
-                            <a href="javascript:;"><i class="fab fa-google-plus text-lg text-white"></i></a>
-                        </div>
                     </div>
                 </div>
             </div>
