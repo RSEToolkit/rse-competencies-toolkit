@@ -34,7 +34,7 @@ If you would like to contribute, please look at the list of [Issues on the Githu
 
 In this early stage of the project, we have several working documents. The following documents have been used for community discussions and development.
 
-**Active collaberative documents**
+**Active collaborative documents**
 * [Collaborative meeting notes (Google Docs)](https://docs.google.com/document/d/1D1RhtnZ9CTTkSaornYE3l3I1JAqZfEWiiW8nADV9kEw/edit?usp=sharing)
 * [Slide deck (Google Slides)](https://docs.google.com/presentation/d/10jG8FYFAyKD8FI_MNo9RTqFUHg4A9e5jB_iHpA_Ut3A/edit?usp=sharing)
 
