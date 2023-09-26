@@ -28,21 +28,24 @@ RSE Competencies Toolkit aims to support the following uses:
 
 ### Support the project
 
-If you would like to contribute, we welcome all [contributions on a range of topics](https://github.com/RSEToolkit/rse-competencies-toolkit/tree/main#support-needed). Please also check the following look at the list of [Issues on the Github repository](https://github.com/RSEToolkit/rse-competencies-toolkit/issues) for ways to help. 
+If you would like to contribute, we welcome all [contributions on a range of topics](https://github.com/RSEToolkit/rse-competencies-toolkit/tree/main#support-needed). Please also check the following list of [Issues on the Github repository](https://github.com/RSEToolkit/rse-competencies-toolkit/issues) for ways to help.
 
-### Important links 
+### Important links
 
 In this early stage of the project, we have several working documents. The following documents have been used for community discussions and development.
 
 **Active collaborative documents**
+
 * [Collaborative meeting notes (Google Docs)](https://docs.google.com/document/d/1D1RhtnZ9CTTkSaornYE3l3I1JAqZfEWiiW8nADV9kEw/edit?usp=sharing)
 * [Slide deck (Google Slides)](https://docs.google.com/presentation/d/10jG8FYFAyKD8FI_MNo9RTqFUHg4A9e5jB_iHpA_Ut3A/edit?usp=sharing)
 
 **Working documents for the framework**
+
 * [Skills framework (Google Docs)](https://docs.google.com/spreadsheets/d/1M8f9luJrc3w4rz4lD-cEpJUfi6qigh9PBk7Fm5sq_jQ/edit?usp=sharing)
 * [Skills framework (JSON)](https://github.com/RSEToolkit/rse-competencies-toolkit/blob/main/_data/skills.json)
 * [Resources for professional development (Google Sheets)](https://docs.google.com/spreadsheets/d/1bHagH4hibAlPJ1inuaZMu-0tmNtjXoJeVPzGFwwWh0U/edit?usp=sharing)
 * [Skill levels (Google Docs)](https://docs.google.com/document/d/1syrY4gyaAcNuONK0ANUiHgHcbJ3P9RoqSjy57AjUsuM/edit#heading=h.nlkwx70wrmf)
 
 **Notes from community sessions and engagement**
+
 * [Notes from RSECon23 Unconference sessions (Google Docs)](https://docs.google.com/document/d/1BTShiFZ7tYu5TcYa5xb5WGoxL_CD69qSVX_h1qrsuG8/edit?usp=sharing)
