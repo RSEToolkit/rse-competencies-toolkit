@@ -40,7 +40,8 @@ layout: default
                 that individuals need to attain
                 to succeed in research software roles
               </p>
-              <button type="button" class="btn bg-gradient-info btn-sm mb-0 mt-3">Draft Framework</button>
+              <a href="https://github.com/RSEToolkit/rse-competencies-toolkit/blob/main/_data/skills.json"
+                class="btn bg-gradient-info btn-sm mb-0 mt-3">Draft Framework</a>
             </div>
           </div>
         </div>
@@ -132,8 +133,9 @@ layout: default
               "Recruitment": 4,
               "Resource management (time, budget)": 7,
               "Strategy": 4,
-              "Change management": 3,
-              "Domain expertise": 3,
+              "Change management": 3
+            },
+            "Domain expertise": {
               "Research methodologies": 1,
               "Ethics": 5,
               "Domain-specific technical skills (AI/ML, research data and analytics, visualisation, computational science)": 2,
@@ -192,234 +194,7 @@ layout: default
           createSkillChart(DATA_B, chart_id = "chart-b", legend_id = "legend-b");
           createSkillChart(DATA_C, chart_id = "chart-c", legend_id = "legend-c");
         </script>
-
       </div>
     </div>
   </section>
-  <!--<section class="pb-5 position-relative bg-gradient-dark mx-n3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 text-start mb-5 mt-5">
-          <h3 class="text-white z-index-1 position-relative">Competency Case Studies</h3>
-          <p class="text-white opacity-8 mb-0">There’s nothing I really wanted to do in life that I wasn’t able to get
-            good at. That’s my skill.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 col-12">
-          <div class="card card-profile mt-4">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 col-12 mt-n5">
-                <a href="javascript:;">
-                  <div class="p-3 pe-md-0">
-                    <img class="w-100 border-radius-md shadow-lg" src="../assets/img/team-5.jpg" alt="image">
-                  </div>
-                </a>
-              </div>
-              <div class="col-lg-8 col-md-6 col-12 my-auto">
-                <div class="card-body ps-lg-0">
-                  <h5 class="mb-0">Emma Roberts</h5>
-                  <h6 class="text-info">Research Software Engineer</h6>
-                  <p class="mb-0">Emma has recently been recruited into a centralised RSE team and focuses on AI.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-12">
-          <div class="card card-profile mt-lg-4 mt-5">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 col-12 mt-n5">
-                <a href="javascript:;">
-                  <div class="p-3 pe-md-0">
-                    <img class="w-100 border-radius-md shadow-lg" src="../assets/img/bruce-mars.jpg" alt="image">
-                  </div>
-                </a>
-              </div>
-              <div class="col-lg-8 col-md-6 col-12 my-auto">
-                <div class="card-body ps-lg-0">
-                  <h5 class="mb-0">William Pearce</h5>
-                  <h6 class="text-info">Senior Research Infrastructure Engineer</h6>
-                  <p class="mb-0">William leads the automated infrastructure deployments for a large research project
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-lg-6 col-12">
-          <div class="card card-profile mt-4 z-index-2">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 col-12 mt-n5">
-                <a href="javascript:;">
-                  <div class="p-3 pe-md-0">
-                    <img class="w-100 border-radius-md shadow-lg" src="../assets/img/ivana-squares.jpg" alt="image">
-                  </div>
-                </a>
-              </div>
-              <div class="col-lg-8 col-md-6 col-12 my-auto">
-                <div class="card-body ps-lg-0">
-                  <h5 class="mb-0">Ivana Flow</h5>
-                  <h6 class="text-info">Training Lead</h6>
-                  <p class="mb-0">Ivana organises and delivers software training to researchers across Swansea
-                    university
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-12">
-          <div class="card card-profile mt-lg-4 mt-5 z-index-2">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 col-12 mt-n5">
-                <a href="javascript:;">
-                  <div class="p-3 pe-md-0">
-                    <img class="w-100 border-radius-md shadow-lg" src="../assets/img/ivana-square.jpg" alt="image">
-                  </div>
-                </a>
-              </div>
-              <div class="col-lg-8 col-md-6 col-12 my-auto">
-                <div class="card-body ps-lg-0">
-                  <h5 class="mb-0">Marquez Garcia</h5>
-                  <h6 class="text-info">Community Manager</h6>
-                  <p class="mb-0">As a community manager, Marquez coordinates the eScience Center Fellowship
-                    Programme.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="pt-6 pb-6" id="count-stats">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-2 col-md-4 col-6">
-          <img class="w-100 opacity-7" src="../assets/img/logos/gray-logos/logo-coinbase.svg" alt="logo">
-        </div>
-        <div class="col-lg-2 col-md-4 col-6">
-          <img class="w-100 opacity-7" src="../assets/img/logos/gray-logos/logo-nasa.svg" alt="logo">
-        </div>
-        <div class="col-lg-2 col-md-4 col-6">
-          <img class="w-100 opacity-7" src="../assets/img/logos/gray-logos/logo-netflix.svg" alt="logo">
-        </div>
-        <div class="col-lg-2 col-md-4 col-6">
-          <img class="w-100 opacity-7" src="../assets/img/logos/gray-logos/logo-pinterest.svg" alt="logo">
-        </div>
-        <div class="col-lg-2 col-md-4 col-6">
-          <img class="w-100 opacity-7" src="../assets/img/logos/gray-logos/logo-spotify.svg" alt="logo">
-        </div>
-        <div class="col-lg-2 col-md-4 col-6">
-          <img class="w-100 opacity-7" src="../assets/img/logos/gray-logos/logo-vodafone.svg" alt="logo">
-        </div>
-      </div>
-  </section>
-  <div class="container">
-    <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
-      style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg');"
-      loading="lazy">
-      <span class="mask bg-gradient-dark"></span>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 ms-lg-5">
-            <h4 class="text-white">Built by developers</h4>
-            <h1 class="text-white">Complex Documentation</h1>
-            <p class="lead text-white opacity-8">From colors, cards, typography to complex elements, you will find the
-              full documentation. Play with the utility classes and you will create unlimited combinations for our
-              components.</p>
-            <a href="https://www.creative-tim.com/learning-lab/bootstrap/overview/material-kit"
-              class="text-white icon-move-right">
-              Read docs
-              <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="info-horizontal bg-gradient-primary border-radius-xl d-block d-md-flex p-4">
-          <i class="material-icons text-white text-3xl">flag</i>
-          <div class="ps-0 ps-md-3 mt-3 mt-md-0">
-            <h5 class="text-white">Getting Started</h5>
-            <p class="text-white">Check the possible ways of working with our product and the necessary files for
-              building your own project.</p>
-            <a href="https://www.creative-tim.com/learning-lab/bootstrap/overview/material-kit"
-              class="text-white icon-move-right">
-              Let's start
-              <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 px-lg-1 mt-lg-0 mt-4">
-        <div class="info-horizontal bg-gray-100 border-radius-xl d-block d-md-flex p-4 h-100">
-          <i class="material-icons text-gradient text-primary text-3xl">precision_manufacturing</i>
-          <div class="ps-0 ps-md-3 mt-3 mt-md-0">
-            <h5>Plugins</h5>
-            <p>Get inspiration and have an overview about the plugins that we used to create the Material Kit.</p>
-            <a href="https://www.creative-tim.com/learning-lab/bootstrap/datepicker/material-kit"
-              class="text-primary icon-move-right">
-              Read more
-              <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mt-lg-0 mt-4">
-        <div class="info-horizontal bg-gray-100 border-radius-xl d-block d-md-flex p-4">
-          <i class="material-icons text-gradient text-primary text-3xl">receipt_long</i>
-          <div class="ps-0 ps-md-3 mt-3 mt-md-0">
-            <h5>Utility Classes</h5>
-            <p>Material Kit is giving you a lot of pre-made elements. For those who want flexibility, we included many
-              utility classes.</p>
-            <a href="https://www.creative-tim.com/learning-lab/bootstrap/utilities/material-kit"
-              class="text-primary icon-move-right">
-              Read more
-              <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <section class="my-5 pt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 m-auto">
-          <h4>Be the first to see the news</h4>
-          <p class="mb-4">
-            Your company may not be in the software business,
-            but eventually, a software company will be in your business.
-          </p>
-          <div class="row">
-            <div class="col-8">
-              <div class="input-group input-group-outline">
-                <label class="form-label">Email Here...</label>
-                <input type="text" class="form-control mb-sm-0">
-              </div>
-            </div>
-            <div class="col-4 ps-0">
-              <button type="button"
-                class="btn bg-gradient-info mb-0 h-100 position-relative z-index-2">Subscribe</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5 ms-auto">
-          <div class="position-relative">
-            <img class="max-width-50 w-100 position-relative z-index-2" src="../assets/img/macbook.png" alt="image">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>-->
 </div>
