@@ -11,7 +11,7 @@ repos:
     rev: v0.10.0
     hooks:
       - id: markdownlint-cli2
-        args: []  
+        args: []
 
 ci:
   autofix_prs: true
