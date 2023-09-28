@@ -10,30 +10,37 @@ The idea is to construct a resource that is for the RSE community and curated by
 
 ![Screenshot of competency visualisations](rse-forge-screenshot.png)
 
-RSE Competencies Toolkit is a resource to support RSEs (Research Software Engineers) in tracking and managing their professional development. It is currently in the early stages of development and we welcome contributions and feedback.
+RSE Competencies Toolkit is a resource to support RSEs (Research Software Engineers) in tracking and managing their
+professional development. It is currently in the early stages of development and we welcome contributions and feedback.
 
-Note that, while we've focussed on RSE during the early stages of development, this tool can be used for any roles. We plan to extend this to other research roles and welcome contributions and collaboration from anyone working in research, broadly defined.
+Note that, while we've focussed on RSE during the early stages of development, this tool can be used for any roles. We
+plan to extend this to other research roles and welcome contributions and collaboration from anyone working in research,
+broadly defined.
 
 RSE Competencies Toolkit comprises:
 
-1. An RSE competency framework, outlining a structured set of skills that are useful when working as an RSE, with examples of how these skills can be demonstrated at different levels of experience. Not all RSEs will or need to have all skills at all levels.
+1. An RSE competency framework, outlining a structured set of skills that are useful when working as an RSE, with
+   examples of how these skills can be demonstrated at different levels of experience. Not all RSEs will or need to have
+   all skills at all levels.
 2. A curated set of training resources, linked to the skills and levels from the competency framework.
 3. A tool to visualise and compare different competency profiles.
 
 RSE Competencies Toolkit aims to support the following uses:
 
-1. Recording and visualising your competency profile as an individual RSE
-2. Comparing competency profiles across a group of RSEs (e.g. to show the commonalities and variety across RSEs doing the same role at the same level at the same organisation, or comparing across organisations)
-3. Find high-quality training resources to improve skills in a particular competency
-4. Define aspirational competency profiles, illustrate the gap to your current profile and highlight training resources that could help bridge that gap.
+1. Recording and visualising your competency profile as an individual RSE.
+2. Comparing competency profiles across a group of RSEs (e.g. to show the commonalities and variety across RSEs doing
+   the same role at the same level at the same organisation, or comparing across organisations).
+3. Find high-quality training resources to improve skills in a particular competency.
+4. Define aspirational competency profiles, illustrate the gap to your current profile and highlight training resources
+   that could help bridge that gap.
 
 ### Current Status
 
 - [x] Initial Research
-- [ ] Initial Development <-- We are Here  
+- [ ] Initial Development <-- We are Here
 - [ ] Minimum viable product
-- [ ] Alpha Release  
-- [ ] Feature-Complete Release  
+- [ ] Alpha Release
+- [ ] Feature-Complete Release
 
 ### Support Needed
 
@@ -41,31 +48,38 @@ We need support and feedback in the following areas. Contributions of all sizes 
 
 #### Defining the skills framework
 
-We have a [draft framework](./_data/skills.json) and a [GitHub issue to track suggestions](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/39).
+We have a [draft framework](./_data/skills.json) and a [GitHub issue to track
+suggestions](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/39).
 
-If you think skills are missing, needs clarification, or could be reorganised within the framework, please add your feedback to the [GitHub issue to track suggestions](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/39).
+If you think skills are missing, needs clarification, or could be reorganised within the framework, please add your
+feedback to the [GitHub issue to track suggestions](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/39).
 
 #### Defining skill levels
 
-We have a [working document on skill levels](https://docs.google.com/document/d/1syrY4gyaAcNuONK0ANUiHgHcbJ3P9RoqSjy57AjUsuM/edit#heading=h.nlkwx70wrmf). Please add feedback as comments in that document.
+We have a [working document on skill
+levels](https://docs.google.com/document/d/1syrY4gyaAcNuONK0ANUiHgHcbJ3P9RoqSjy57AjUsuM/edit#heading=h.nlkwx70wrmf). Please
+add feedback as comments in that document.
 
 #### Developing the website
 
-The [website](https://rsetoolkit.github.io/rse-competencies-toolkit/) is currently a basic proof of concept developed during the CW23 Hack Day. We need support to develop a website that can:
+The [website](https://rsetoolkit.github.io/rse-competencies-toolkit/) is currently a basic proof of concept developed
+during the CW23 Hack Day. We need support to develop a website that can:
 
-- Show descriptions of all the skills
-- Display and link the professional development resources curated for each skill
-- Allow people to score their own skills and view their skill wheels
+- Show descriptions of all the skills.
+- Display and link the professional development resources curated for each skill.
+- Allow people to score their own skills and view their skill wheels.
 
 #### Curating professional development resources
 
 We have a file with [resources for professional development](./_data/resources.csv) mapped to skills in the framework.
 
-If you would like to suggest resources to add to the collection, please add them to the [GitHub issue on curation](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/44).
+If you would like to suggest resources to add to the collection, please add them to the [GitHub issue on
+curation](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/44).
 
 #### All GitHub issues
 
-Anyone is welcome to contribute suggestions, feedback, and/or PRs to address any open issues. You can also open a new issue if your idea is not yet mentioned anywhere else.
+Anyone is welcome to contribute suggestions, feedback, and/or PRs to address any open issues. You can also open a new
+issue if your idea is not yet mentioned anywhere else.
 
 ### More information
 
@@ -79,7 +93,8 @@ You can contact the team at [rse-competencies-toolkit@googlegroups.com](mailto:r
 
 ## Built With
 
-This section is intended to list the frameworks and tools you're using to develop this software. Please link to the home page or documentatation in each case.
+This section is intended to list the frameworks and tools you're using to develop this software. Please link to the home
+page or documentatation in each case.
 
 ### Framework references
 
@@ -90,8 +105,8 @@ This section is intended to list the frameworks and tools you're using to develo
 
 ### Website
 
-- [Jekyll](https://jekyllrb.com/)  
-- [Chart.js](https://www.chartjs.org/)  
+- [Jekyll](https://jekyllrb.com/)
+- [Chart.js](https://www.chartjs.org/)
 
 ## Getting Started for Developers
 
@@ -139,14 +154,15 @@ To come after the hack day
 
 Unless otherwise specified on particular materials, all material in this repository is licensed as follows:
 
-- Code is licenced under the [3-clause BSD licence](https://opensource.org/license/bsd-3-clause/)
-- Documentation, data and other written material is licensed under the [Creative Commons Attribution licence](https://creativecommons.org/licenses/by/4.0/) (CC-BY 4.0)
+- Code is licenced under the [3-clause BSD licence](https://opensource.org/license/bsd-3-clause/).
+- Documentation, data and other written material is licensed under the [Creative Commons Attribution
+  licence](https://creativecommons.org/licenses/by/4.0/) (CC-BY 4.0).
 
 ## Citation
 
 Please cite this work as follows:
 
-```
+```{bibtex}
 @article{RSECompetenciesToolkit2023,
   title={RSE Competencies Toolkit},
   author={RSE Competencies Toolkit team},
@@ -157,7 +173,8 @@ Please cite this work as follows:
 
 ## Acknowledgements
 
-The initial version of this repository was created during a Software Sustainability Institute Collaborations Workshop 2023 Hack Day. Subsequent development was guided by a number of unconference sessions during RSECon23.
+The initial version of this repository was created during a Software Sustainability Institute Collaborations Workshop
+2023 Hack Day. Subsequent development was guided by a number of unconference sessions during RSECon23.
 
 ## Contributors
 
