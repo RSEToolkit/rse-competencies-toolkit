@@ -5,3 +5,7 @@ _site
 vendor
 # temporary spreadsheet files
 .~lock.*
+
+# Emacs temp files
+\#*
+*~
