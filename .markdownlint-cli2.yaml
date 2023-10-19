@@ -14,5 +14,9 @@ globs:
   - "**/*.md"
   - "**/*.markdown"
 
+# Ignores
+ignores:
+  - "*.svg"
+
 # Fix any fixable errors
 fix: true
