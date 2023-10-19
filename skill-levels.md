@@ -8,8 +8,6 @@ References & inspiration from:
 
 ### Introduction
 
-
-This document describes a competency scale as a tool to help measure/describe RSEs ability to demonstrate a particular skill or competency
 (i.e. an individual’s competency level for a particular skill). It can serve as a guide to understanding the expected proficiency at
 each level (i.e. the expected proficiency of top performers at each level and what an individual is expected to be able to do/aim for
 at the top of a level). It can be used by an individual to compare, e.g., their current level of proficiency to that of individuals t
