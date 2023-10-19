@@ -2,25 +2,21 @@
 
 References & inspiration from:
 
-
-* [NIH Competencies Proficiency Scale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale)
 * [Bloom’s for Computing: Enhancing Bloom's Revised Taxonomy with Verbs for Computing Disciplines](https://ccecc.acm.org/files/publications/Blooms-for-Computing-20230807.pdf)
-* [https://study.com/learn/lesson/blooms-taxonomy-uses-levels-examples.html](https://study.com/learn/lesson/blooms-taxonomy-uses-levels-examples.html) 
-* [SFIA (Skills Framework for the Information Age) guiding principles](https://sfia-online.org/en/about-sfia/sfia-guiding-principles) and [SFIA overview](https://sfia-online.org/en/about-sfia/sfia-overview-for-new-users-211014.pdf) 
-
+* [https://study.com/learn/lesson/blooms-taxonomy-uses-levels-examples.html](https://study.com/learn/lesson/blooms-taxonomy-uses-levels-examples.html)
+* [SFIA (Skills Framework for the Information Age) guiding principles](https://sfia-online.org/en/about-sfia/sfia-guiding-principles) and [SFIA overviw](https://sfia-online.org/en/about-sfia/sfia-overview-for-new-users-211014.pdf)
 
 ### Introduction
+This document describes a competency scale as a tool to help measure/describe RSEs ability to demonstrate a particular skill or competency
+(i.e. an individual’s competency level for a particular skill). It can serve as a guide to understanding the expected proficiency at
+each level (i.e. the expected proficiency of top performers at each level and what an individual is expected to be able to do/aim for
+at the top of a level). It can be used by an individual to compare, e.g., their current level of proficiency to that of individuals t
+the level above or top performers at the same level. In addition, when combined with the RSE Competencies framework, this should be a
+useful tool for curriculum design and planning professional development.
 
-This document describes a competency scale as a tool to help measure/describe RSEs ability to demonstrate a particular skill or competency 
-(i.e. an individual’s competency level for a particular skill). It can serve as a guide to understanding the expected proficiency at 
-each level (i.e. the expected proficiency of top performers at each level and what an individual is expected to be able to do/aim for 
-at the top of a level). It can be used by an individual to compare, e.g., their current level of proficiency to that of individuals at 
-the level above or top performers at the same level. In addition, when combined with the RSE Competencies framework, this should be a 
-useful tool for curriculum design and planning professional development. 
-
-The scale has been heavily inspired by the [NIH Competencies Proficiency Scale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale). 
-In addition, we tried to (roughly) map each of the levels to the six main categories, or hierarchical levels, 
-of [Bloom's Taxonomy](https://en.wikipedia.org/wiki/Bloom's_taxonomy) (recap included below), which describe learning objectives 
+The scale has been heavily inspired by the [NIH Competencies ProficiencyScale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale).
+In addition, we tried to (roughly) map each of the levels to the six main categories, or hierarchical levels,
+of [Bloom's Taxonomy](https://en.wikipedia.org/wiki/Bloom's_taxonomy) (recap included below), which describe learning objectives
 an individual is aiming to achieve at each level:
 
 1. Remembering/Knowledge
@@ -58,9 +54,9 @@ A mapping from competency levels to Bloom’s taxonomy
 
 * You have the level of experience gained in a classroom or as a trainee on-the-job. You are expected to need help when performing this competency.
 * You understand and can discuss terminology, concepts, principles and issues related to this competency; you can use the full range of reference and resource materials in this skill.
-* Focus is on **understanding **and developing through on-the-job experience.
+* Focus is on **understanding**and developing through on-the-job experience.
 
-**Level 3** - Intermediate practitioner (practical application)
+**Level 3** - Intermediate prctitioner (practical application)
 
 * You are able to successfully complete tasks in this competency as requested. Help from an advanced practitioner/expert may be required from time to time, but you can usually perform the competency independently.
 * You have applied this competency to situations occasionally while needing minimal guidance to perform tasks successfully.
@@ -73,7 +69,7 @@ A mapping from competency levels to Bloom’s taxonomy
 * You have consistently provided practical/relevant ideas and perspectives on process or practice improvements which may easily be implemented;
 * You are capable of mentoring others in the application of this competency by translating complex nuances relating to this competency into easy to understand terms.
 * You participate in the development of reference and resource materials in this competency.
-* Focus is on designing or architecting new solutions  - **analysing, evaluating** and** creating/synthesis**.
+* Focus is on designing or architecting new solutions  - **analysing, evaluating** and**creating/synthesis**.
 
 **Level 5** - Expert (recognized authority)
 
