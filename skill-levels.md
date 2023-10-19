@@ -37,7 +37,7 @@ Mapping to Bloom’s taxonomy should be used to aid the design and development o
 
 We propose the following 5-level competency scale, and the related mapping from a competency level to a category in Bloom’s taxonomy. Each level is described in terms of what **tasks** people at each level are already capable of performing and what the main **focus** of people at that level is. While most people at each level will be practising skills across several (adjacent) categories of Bloom’s taxonomy, the focus in this case can be interpreted as what skills people at that level will spend most time and energy developing and practising.
 
-![drawing](images/skill-levels-with-blooms-taxonomy-mapping.png)
+![drawing](images/skill-levels.png)
 
 A mapping from competency levels to Bloom’s taxonomy
 
