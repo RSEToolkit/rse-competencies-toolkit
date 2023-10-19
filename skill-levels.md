@@ -73,7 +73,7 @@ be implemented;
 * You are capable of mentoring others in the application of this competency by translating complex nuances relating to
 this competency into easy to understand terms.
 * You participate in the development of reference and resource materials in this competency.
-* Focus is on designing or architecting new solutions  - **analysing, evaluating** and**creating/synthesis**.
+* Focus is on designing or architecting new solutions  - **analysing, evaluating** and **creating/synthesis**.
 
 **Level 5** - Expert (recognized authority)
 
