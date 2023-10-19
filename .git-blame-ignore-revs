@@ -1,0 +1,6 @@
+# This file ignores the blame associated with the listed commits from being shown
+# The initial use is to prevent blame associated with linting giving a false impression of who wrote the code.
+
+# Linting of README.md and all_documents.
+67ce492384b52461123daefa740c0d90a2d044c5
+4a45bdfe8e8dbba40d8d8df35bba0a6e67328c9a
