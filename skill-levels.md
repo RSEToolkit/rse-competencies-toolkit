@@ -4,7 +4,7 @@ References & inspiration from:
 
 * [Bloom’s for Computing: Enhancing Bloom's Revised Taxonomy with Verbs for Computing Disciplines](https://ccecc.acm.org/files/publications/Blooms-for-Computing-20230807.pdf)
 * [Study.com: What is Bloom's Taxonomy?](https://study.com/learn/lesson/blooms-taxonomy-uses-levels-examples.html)
-* [SFIA (Skills Framework for the Information Age) guiding principles](https://sfia-online.org/en/about-sfia/sfia-guiding-principles) and [SFIA overviw](https://sfia-online.org/en/about-sfia/sfia-overview-for-new-users-211014.pdf)
+* [SFIA (Skills Framework for the Information Age) guiding principles](https://sfia-online.org/en/about-sfia/sfia-guiding-principles) and [SFIA overview](https://sfia-online.org/en/about-sfia/sfia-overview-for-new-users-211014.pdf)
 
 ### Introduction
 
