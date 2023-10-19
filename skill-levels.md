@@ -8,7 +8,7 @@ References & inspiration from:
 
 ### Introduction
 
-This document describes a competency scale as a tool to help measure/describe RSEs ability to demonstrate a particular skill or competency (i.e. an individual’s competency level for a particular skill). It can serve as a guide to understanding the expected proficiency at each level (i.e. the expected proficiency of top performers at each level and what an individual is expected to be able to do/aim for at the top of a level). It can be used by an individual to compare, e.g., their current level of proficiency to that of individuals at the level above or top performers at the same level. In addition, when combined with the RSE Competencies framework, this should be a useful tool for curriculum design and planning professional development. 
+This document describes a competency scale as a tool to help measure/describe RSEs ability to demonstrate a particular skill or competency (i.e. an individual’s competency level for a particular skill). It can serve as a guide to understanding the expected proficiency at each level (i.e. the expected proficiency of top performers at each level and what an individual is expected to be able to do/aim for at the top of a level). It can be used by an individual to compare, e.g., their current level of proficiency to that of individuals at the level above or top performers at the same level. In addition, when combined with the RSE Competencies framework, this should be a useful tool for curriculum design and planning professional development.
 
 The scale has been heavily inspired by the [NIH Competencies ProficiencyScale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale).
 In addition, we tried to (roughly) map each of the levels to the six main categories, or hierarchical levels,
@@ -27,13 +27,13 @@ an individual is aiming to achieve at each level:
 <p style="text-align: center;">[Bloom’s taxonomy as revised by Lorin Anderson in 1990](https://study.com/learn/lesson/blooms-taxonomy-uses-levels-examples.html)  \
 (Image credit [Center for Teaching Vanderbilt University @Flickr](https://www.flickr.com/photos/vandycft/29428436431), licence CC BY 2.0)</p>
 
-Mapping to Bloom’s taxonomy should be used to aid the design and development of curricula and defining learning objectives at each skill/competency level as learners advance through the process of learning, from the fundamental stages of remembering and 
+Mapping to Bloom’s taxonomy should be used to aid the design and development of curricula and defining learning objectives at each skill/competency level as learners advance through the process of learning, from the fundamental stages of remembering and
 understanding to the more complex stages of evaluating and creating.
 
 ### RSE Competency Scale
 
-We propose the following 5-level competency scale, and the related mapping from a competency level to a category in Bloom’s taxonomy. 
-Each level is described in terms of what **tasks** people at each level are already capable of performing and what the main **focus** 
+We propose the following 5-level competency scale, and the related mapping from a competency level to a category in Bloom’s taxonomy.
+Each level is described in terms of what **tasks** people at each level are already capable of performing and what the main **focus**
 of people at that level is. While most people at each level will be practising skills across several (adjacent) categories of Bloom’s taxonomy, the focus in this case can be interpreted as what skills people at that level will spend most time and energy developing and practising.
 
 ![drawing](images/skill-levels.png)
