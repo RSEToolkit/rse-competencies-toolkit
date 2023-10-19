@@ -7,6 +7,8 @@ References & inspiration from:
 * [SFIA (Skills Framework for the Information Age) guiding principles](https://sfia-online.org/en/about-sfia/sfia-guiding-principles) and [SFIA overviw](https://sfia-online.org/en/about-sfia/sfia-overview-for-new-users-211014.pdf)
 
 ### Introduction
+
+
 This document describes a competency scale as a tool to help measure/describe RSEs ability to demonstrate a particular skill or competency
 (i.e. an individual’s competency level for a particular skill). It can serve as a guide to understanding the expected proficiency at
 each level (i.e. the expected proficiency of top performers at each level and what an individual is expected to be able to do/aim for
