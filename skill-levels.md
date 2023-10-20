@@ -22,10 +22,10 @@ an individual is aiming to achieve at each level:
 5. Evaluation
 6. Creating/Synthesis
 
-![Six categories of Bloom's taxomomy of learning objectives including: remembering, understanding, application, analysing, evaluation, creating](images/blooms-taxonomy.png)
+<img src="images/blooms-taxonomy.png" alt="Six categories of Bloom's taxomomy of learning objectives including: remembering, understanding,     application, analysing, evaluation, creating" style="width: 600px;"/>
 
-<p style="text-align: center;">[Bloom’s taxonomy as revised by Lorin Anderson in 1990](https://study.com/learn/lesson/blooms-taxonomy-uses-levels-examples.html)  \
-(Image credit [Center for Teaching Vanderbilt University @Flickr](https://www.flickr.com/photos/vandycft/29428436431), licence CC BY 2.0)</p>
+[Bloom’s taxonomy as revised by Lorin Anderson in 1990](https://study.com/learn/lesson/blooms-taxonomy-uses-levels-examples.html)  \
+(Image credit [Center for Teaching Vanderbilt University @Flickr](https://www.flickr.com/photos/vandycft/29428436431), licence CC BY 2.0)
 
 Mapping to Bloom’s taxonomy should be used to aid the design and development of curricula and defining learning objectives at each skill/competency level as learners advance through the process of learning, from the fundamental stages of remembering and
 understanding to the more complex stages of evaluating and creating.
@@ -36,7 +36,7 @@ We propose the following 5-level competency scale, and the related mapping from 
 Each level is described in terms of what **tasks** people at each level are already capable of performing and what the main **focus**
 of people at that level is. While most people at each level will be practising skills across several (adjacent) categories of Bloom’s taxonomy, the focus in this case can be interpreted as what skills people at that level will spend most time and energy developing and practising.
 
-![drawing](images/skill-levels.png)
+<img src="images/skill-levels.png" alt="5 skill levels mapped to six categories of Bloom's taxomomy, with skill level 1 mapped to remembering, level 2 to understanding, level 3 to applying, and level 4 and 5 jointly mapped to analysing, eveluation and creating" style="width: 600px;"/>
 
 A mapping from competency levels to Bloom’s taxonomy
 
