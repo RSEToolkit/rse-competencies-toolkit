@@ -1,4 +1,4 @@
-## RSE Competencies Toolkit - Skill Levels Definition
+# RSE Competencies Toolkit - Skill Levels Definition
 
 References & inspiration from:
 
@@ -6,7 +6,7 @@ References & inspiration from:
 * [Study.com: What is Bloom's Taxonomy?](https://study.com/learn/lesson/blooms-taxonomy-uses-levels-examples.html)
 * [SFIA (Skills Framework for the Information Age) guiding principles](https://sfia-online.org/en/about-sfia/sfia-guiding-principles) and [SFIA overview](https://sfia-online.org/en/about-sfia/sfia-overview-for-new-users-211014.pdf)
 
-### Introduction
+## Introduction
 
 This document describes a competency scale as a tool to help measure/describe RSEs ability to demonstrate a particular skill or competency (i.e. an individual’s competency level for a particular skill). It can serve as a guide to understanding the expected proficiency at each level (i.e. the expected proficiency of top performers at each level and what an individual is expected to be able to do/aim for at the top of a level). It can be used by an individual to compare, e.g., their current level of proficiency to that of individuals at the level above or top performers at the same level. In addition, when combined with the RSE Competencies framework, this should be a useful tool for curriculum design and planning professional development.
 
@@ -30,7 +30,7 @@ an individual is aiming to achieve at each level:
 Mapping to Bloom’s taxonomy should be used to aid the design and development of curricula and defining learning objectives at each skill/competency level as learners advance through the process of learning, from the fundamental stages of remembering and
 understanding to the more complex stages of evaluating and creating.
 
-### RSE Competency Scale
+## RSE Competency Scale
 
 We propose the following 5-level competency scale, and the related mapping from a competency level to a category in Bloom’s taxonomy.
 Each level is described in terms of what **tasks** people at each level are already capable of performing and what the main **focus**
