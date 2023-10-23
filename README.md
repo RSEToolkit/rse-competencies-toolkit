@@ -102,6 +102,8 @@ page or documentatation in each case.
 - [BCS SFIA Plus](https://www.bcs.org/it-careers/sfiaplus-it-skills-framework/)
 - [King's Digital Lab Research Software Careers Learnings](https://zenodo.org/record/2559235)
 - [RSE Toolkit](https://rsetoolkit.github.io/)
+- [Research Software Engineer at the Netherlands eScience Center: Job Description](https://zenodo.org/records/7805870)
+- [NIH Competencies Proficiency Scale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale)
 
 ### Website
 
