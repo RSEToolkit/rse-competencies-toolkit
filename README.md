@@ -19,8 +19,8 @@ broadly defined.
 
 RSE Competencies Toolkit comprises:
 
-1. An RSE competency framework, outlining a structured set of skills that are useful when working as an RSE, with
-   examples of how these skills can be demonstrated at different levels of experience. Not all RSEs will or need to have
+1. An RSE competency framework, outlining a structured **set of skills** that are useful when working as an RSE, with
+   examples of how these skills can be demonstrated at different **levels of experience**. Not all RSEs will or need to have
    all skills at all levels.
 2. A curated set of training resources, linked to the skills and levels from the competency framework.
 3. A tool to visualise and compare different competency profiles.
@@ -46,7 +46,9 @@ RSE Competencies Toolkit aims to support the following uses:
 
 We need support and feedback in the following areas. Contributions of all sizes are welcome.
 
-#### Defining the skills framework
+#### RSE competency framework
+
+##### Defining the skill set
 
 We have a [draft framework](./_data/skills.json) and a [GitHub issue to track
 suggestions](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/39).
@@ -54,7 +56,7 @@ suggestions](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/39).
 If you think skills are missing, needs clarification, or could be reorganised within the framework, please add your
 feedback to the [GitHub issue to track suggestions](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/39).
 
-#### Defining skill levels
+##### Defining the skill levels
 
 We have a [working document on skill
 levels](https://docs.google.com/document/d/1syrY4gyaAcNuONK0ANUiHgHcbJ3P9RoqSjy57AjUsuM/edit#heading=h.nlkwx70wrmf). Please
