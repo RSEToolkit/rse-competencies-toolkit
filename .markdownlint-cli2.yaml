@@ -8,6 +8,7 @@ config:
   html:
     allowed_elements:
       - div
+      - img
 
 # Globs
 globs:
@@ -17,6 +18,7 @@ globs:
 # Ignores
 ignores:
   - "*.svg"
+  - "_site/*"
 
 # Fix any fixable errors
 fix: true

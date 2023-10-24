@@ -58,9 +58,9 @@ feedback to the [GitHub issue to track suggestions](https://github.com/RSEToolki
 
 ##### Defining the skill levels
 
-We have a [working document on skill
-levels](https://docs.google.com/document/d/1syrY4gyaAcNuONK0ANUiHgHcbJ3P9RoqSjy57AjUsuM/edit#heading=h.nlkwx70wrmf). Please
-add feedback as comments in that document.
+We have a [draft document on skill
+levels](./skill-levels.md) and a [GitHub issue to track
+suggestions](https://github.com/RSEToolkit/rse-competencies-toolkit/issues/62).
 
 #### Developing the website
 
