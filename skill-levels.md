@@ -14,8 +14,8 @@ skill or competency (i.e. an individual’s competency level for a particular sk
 understanding the expected proficiency at each level (i.e. the expected proficiency of top performers at each level and
 what an individual is expected to be able to do/aim for at the top of a level). It can be used by an individual to
 compare, e.g., their current level of proficiency to that of individuals at the level above or top performers at the same
-level. In addition, when combined with the RSE Competencies framework, this should be a useful tool for curriculum design
-and planning professional development.
+level. In addition, when combined with the [RSE Competencies framework](https://github.com/RSEToolkit/rse-competencies-toolkit/tree/main#rse-competency-framework),
+this should be a useful tool for curriculum design and planning professional development.
 
 The scale has been heavily inspired by the [NIH Competencies ProficiencyScale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale).
 In addition, we tried to (roughly) map each of the levels to the six main categories, or hierarchical levels,
