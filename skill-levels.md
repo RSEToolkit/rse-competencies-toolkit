@@ -17,7 +17,7 @@ compare, e.g., their current level of proficiency to that of individuals at the 
 level. In addition, when combined with the [RSE Competencies framework](https://github.com/RSEToolkit/rse-competencies-toolkit/tree/main#rse-competency-framework),
 this should be a useful tool for curriculum design and planning professional development.
 
-The scale has been heavily inspired by the [NIH Competencies ProficiencyScale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale).
+The scale has been heavily inspired by the [NIH Competencies Proficiency Scale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale).
 In addition, we tried to (roughly) map each of the levels to the six main categories, or hierarchical levels,
 of [Bloom's Taxonomy](https://en.wikipedia.org/wiki/Bloom's_taxonomy) (recap included below), which describe learning objectives
 an individual is aiming to achieve at each level:
