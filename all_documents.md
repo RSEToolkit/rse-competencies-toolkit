@@ -13,7 +13,7 @@ This page tracks the public documents that have been used for community discussi
 and the [original resource
 spreadsheet](https://docs.google.com/spreadsheets/d/1bHagH4hibAlPJ1inuaZMu-0tmNtjXoJeVPzGFwwWh0U/edit?usp=sharing) (not
 currently matching)
-* [Skill levels](https://docs.google.com/document/d/1syrY4gyaAcNuONK0ANUiHgHcbJ3P9RoqSjy57AjUsuM/edit#heading=h.nlkwx70wrmf)
+* [Skill levels](https://github.com/RSEToolkit/rse-competencies-toolkit/blob/main/skill-levels.md)
 * [Issues on the rse-competencies-toolkit repository](https://github.com/RSEToolkit/rse-competencies-toolkit/issues)
 
 ## No longer updated
