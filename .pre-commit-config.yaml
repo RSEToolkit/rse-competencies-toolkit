@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0  # Use the ref you want to point at
+    rev: v4.6.0  # Use the ref you want to point at
     hooks:
       - id: trailing-whitespace
         types: [yaml, markdown]
@@ -8,7 +8,7 @@ repos:
       - id: check-yaml
 
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.11.0
+    rev: v0.13.0
     hooks:
       - id: markdownlint-cli2
         args: []
