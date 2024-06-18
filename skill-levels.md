@@ -63,7 +63,7 @@ applicable
 **Level 1** - Fundamental awareness (basic knowledge)
 
 * You have a common knowledge or an understanding of basic techniques and concepts.
-* Focus is on learning and **remembering**.
+* Focus is on **learning** and **remembering**.
 
 **Level 2** - Novice (limited experience)
 
@@ -71,7 +71,7 @@ applicable
 performing this competency.
 * You understand and can discuss terminology, concepts, principles and issues related to this competency; you can use the
 full range of reference and resource materials in this skill.
-* Focus is on **understanding**and developing through on-the-job experience.
+* Focus is on **understanding** and developing through on-the-job experience.
 
 **Level 3** - Intermediate prctitioner (practical application)
 
@@ -79,7 +79,8 @@ full range of reference and resource materials in this skill.
 may be required from time to time, but you can usually perform the competency independently.
 * You have applied this competency to situations occasionally while needing minimal guidance to perform tasks successfully.
 * You understand and can discuss the application and implications of changes to processes and policies in this area.
-* Focus is on **applying** well known algorithms, paradigms and solutions to the job at hand and enhancing knowledge or skill.
+* Focus is on **applying** well-known algorithms, paradigms and solutions to the job at hand and **enhancing knowledge
+  or skill**.
 
 **Level 4** - Advanced practitioner (applied theory)
 
@@ -90,7 +91,7 @@ easily be implemented.
 * You are capable of mentoring others in the application of this competency by translating complex nuances relating to
 this competency into easy to understand terms.
 * You participate in the development of reference and resource materials in this competency.
-* Focus is on designing or architecting new solutions  - **analysing, evaluating** and **creating/synthesis**.
+* Focus is on **designing or architecting** new solutions  - **analysing, evaluating** and **creating/synthesis**.
 
 **Level 5** - Expert (recognized authority)
 
@@ -101,4 +102,4 @@ skill is used.
 * You create new applications for and/or lead the development of reference and resource materials for this competency.
 * You are able to explain the relevant process elements and issues in sufficient detail during discussions and presentations,
 to foster a greater understanding among internal and external colleagues and collaborators.
-* Focus is on **strategy** in the area of competency and shaping organisational and (inter)national policies.
+* Focus is on **strategy** in the area of competency and **shaping organisational and (inter)national policies**.
