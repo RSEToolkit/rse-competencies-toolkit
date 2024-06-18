@@ -101,7 +101,8 @@ page or documentatation in each case.
 ### Framework references
 
 - [CSCCE Skills Wheel](https://zenodo.org/record/4437294#.ZFO3F-zMIc1)
-- [BCS SFIAplus IT Skills Framework](https://www.bcs.org/it-careers/sfiaplus-it-skills-framework/) and [SFIA v8, the current standard](https://sfia-online.org/en/sfia-8/sfia-views/full-framework-view?path=/glance)
+- [BCS SFIAplus IT Skills Framework](https://www.bcs.org/it-careers/sfiaplus-it-skills-framework/) and [SFIA v8, the
+  current standard](https://sfia-online.org/en/sfia-8/sfia-views/full-framework-view?path=/glance)
 - [King's Digital Lab Research Software Careers Learnings](https://zenodo.org/record/2559235)
 - [RSE Toolkit](https://rsetoolkit.github.io/)
 - [Research Software Engineer at the Netherlands eScience Center: Job Description](https://zenodo.org/records/7805870)
