@@ -79,7 +79,8 @@ full range of reference and resource materials in this skill.
 may be required from time to time, but you can usually perform the competency independently.
 * You have applied this competency to situations occasionally while needing minimal guidance to perform tasks successfully.
 * You understand and can discuss the application and implications of changes to processes and policies in this area.
-* Focus is on **applying** well-known algorithms, paradigms and solutions to the job at hand and **enhancing knowledge or skill**.
+* Focus is on **applying** well-known algorithms, paradigms and solutions to the job at hand and **enhancing knowledge
+  or skill**.
 
 **Level 4** - Advanced practitioner (applied theory)
 
