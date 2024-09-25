@@ -105,7 +105,7 @@ page or documentatation in each case.
   current standard](https://sfia-online.org/en/sfia-8/sfia-views/full-framework-view?path=/glance)
 - [NIH Competencies Proficiency Scale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale)
 - [King's Digital Lab Research Software Careers Learnings](https://zenodo.org/record/2559235)
-- [UCL Job Descriptions and Framework for Centre for Advanced Research Computing (ARC) Research Software Engineer](https://rdr.ucl.ac.uk/articles/model/Job_Descriptions_and_Framework_for_Centre_for_Advanced_Research_Computing_ARC_Research_Software_Engineer/25196066?file=44484410)
+- [Job Descriptions and Framework for the UCL Centre for Advanced Research Computing (ARC) Research Software Engineer](https://rdr.ucl.ac.uk/articles/model/Job_Descriptions_and_Framework_for_Centre_for_Advanced_Research_Computing_ARC_Research_Software_Engineer/25196066?file=44484410)
 - [Research Software Engineer at the Netherlands eScience Center: Job Description](https://zenodo.org/records/7805870)
 - [Met Office's Science Professional Skills Framework](https://www.metoffice.gov.uk/research/approach/our-science-professional-skills)
 - [Foundational Competencies and Responsibilities of a Research Software Engineer by the German RSE community](https://arxiv.org/pdf/2311.11457)
