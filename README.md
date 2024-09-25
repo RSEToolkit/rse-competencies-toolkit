@@ -103,10 +103,17 @@ page or documentatation in each case.
 - [CSCCE Skills Wheel](https://zenodo.org/record/4437294#.ZFO3F-zMIc1)
 - [BCS SFIAplus IT Skills Framework](https://www.bcs.org/it-careers/sfiaplus-it-skills-framework/) and [SFIA v8, the
   current standard](https://sfia-online.org/en/sfia-8/sfia-views/full-framework-view?path=/glance)
-- [King's Digital Lab Research Software Careers Learnings](https://zenodo.org/record/2559235)
-- [RSE Toolkit](https://rsetoolkit.github.io/)
-- [Research Software Engineer at the Netherlands eScience Center: Job Description](https://zenodo.org/records/7805870)
 - [NIH Competencies Proficiency Scale](https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale)
+- [King's Digital Lab Research Software Careers Learnings](https://zenodo.org/record/2559235)
+- [UCL Job Descriptions and Framework for Centre for Advanced Research Computing (ARC) Research Software Engineer](https://rdr.ucl.ac.uk/articles/model/Job_Descriptions_and_Framework_for_Centre_for_Advanced_Research_Computing_ARC_Research_Software_Engineer/25196066?file=44484410)
+- [Research Software Engineer at the Netherlands eScience Center: Job Description](https://zenodo.org/records/7805870)
+- [Met Office's Science Professional Skills Framework][https://www.metoffice.gov.uk/research/approach/our-science-professional-skills]
+- [Foundational Competencies and Responsibilities of a Research Software Engineer by the German RSE community](https://arxiv.org/pdf/2311.11457)
+- [Skills Used by RSEs, by the US-RSE community](https://us-rse.org/wg/education_training/skills/)
+- [Skills Base - Skills Management Framework](https://www.skills-base.com/)
+- [JISC Digital Capability](https://digitalcapability.jisc.ac.uk/what-is-digital-capability/)
+- [Civil Service Competency Framework](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/436073/cscf_fulla4potrait_2013-2017_v2d.pdf)
+- [RSE Toolkit](https://rsetoolkit.github.io/)
 
 ### Website
 
