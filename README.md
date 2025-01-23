@@ -113,6 +113,7 @@ page or documentatation in each case.
 - [Skills Base - Skills Management Framework](https://www.skills-base.com/)
 - [JISC Digital Capability](https://digitalcapability.jisc.ac.uk/what-is-digital-capability/)
 - [Civil Service Competency Framework](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/436073/cscf_fulla4potrait_2013-2017_v2d.pdf)
+- [Competencies, training resources and career profiles in computational biology](https://competency.ebi.ac.uk/framework/iscb/3.0)
 - [RSE Toolkit](https://rsetoolkit.github.io/)
 
 ### Website
