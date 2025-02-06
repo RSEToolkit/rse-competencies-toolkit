@@ -114,6 +114,7 @@ page or documentatation in each case.
 - [JISC Digital Capability](https://digitalcapability.jisc.ac.uk/what-is-digital-capability/)
 - [Civil Service Competency Framework](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/436073/cscf_fulla4potrait_2013-2017_v2d.pdf)
 - [RSE Toolkit](https://rsetoolkit.github.io/)
+- [Australian Research Data Commons (ARDC) Digital Research Capabilities and Skills Framework: The Framework and Its Components](https://zenodo.org/records/14188836)
 
 ### Website
 
